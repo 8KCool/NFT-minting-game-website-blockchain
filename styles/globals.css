@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    @apply scroll-smooth
+  }
+}
+
+:root{
+  --font-family: 'Roboto', sans-serif;
+  --clr-c1: #009df8;
+  --clr-c2: #0bd3f7;
+  --clr-c3: #d4f807;
+  --clr-c4: #ffde20;
+  --clr-c5: #9d4edd;
+  --clr-c6: #c77dff;
+  --clr-c7: #e0aaff;
+  --clr-blue: #07b9f5;
+  --clr-green: #00f5d4;
+  --clr-selection-text: rgb(0, 0, 0);
+  --clr-selection-bg: rgb(255, 255, 255);
+  --clr-background:#000000;
+
+}
+html{
+  
+  font-family:var(--font-family);
+  background:var(--clr-background);
+
+}
+::selection{
+  background:var(--clr-selection-bg);
+  color:var(--clr-selection-text);
+}

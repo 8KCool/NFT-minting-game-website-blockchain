@@ -1,0 +1,308 @@
+[
+    {
+        "id": 15,
+        "image": "/weaponData/Weapons/1.Common/15.png",
+        "title": "Blade",
+        "supply": 500 ,
+        "tier": "Common"
+    },
+
+    {
+        "id": 16,
+        "image": "/weaponData/Weapons/1.Common/16.png",
+        "title": "Tuco",
+        "supply": 500 ,
+        "tier": "Common"
+    },
+
+    {
+        "id": 17,
+        "image": "/weaponData/Weapons/1.Common/17.png",
+        "title": "Tortuga",
+        "supply": 500 ,
+        "tier": "Common"
+    },
+
+    {
+        "id": 40,
+        "image": "/weaponData/Weapons/2.Uncommon/40.png",
+        "title": "Molotov",
+        "supply": 400 ,
+        "tier": "Uncommon"
+    },
+
+    {
+        "id": 41,
+        "image": "/weaponData/Weapons/2.Uncommon/41.png",
+        "title": "Activa",
+        "supply": 400 ,
+        "tier": "Unommon"
+    },
+
+    {
+        "id": 42,
+        "image": "/weaponData/Weapons/2.Uncommon/42.png",
+        "title": "Neutralizer",
+        "supply": 400 ,
+        "tier": "Uncommon"
+    },
+
+    {
+        "id": 43,
+        "image": "/weaponData/Weapons/2.Uncommon/43.png",
+        "title": "Rapido",
+        "supply": 400 ,
+        "tier": "Uncommon"
+    },
+
+    {
+        "id": 44,
+        "image": "/weaponData/Weapons/2.Uncommon/44.png",
+        "title": "Lava Blade",
+        "supply": 400 ,
+        "tier": "Uncommon"
+    },
+    
+    {
+        "id": 68,
+        "image": "/weaponData/Weapons/3.Rare/68.png",
+        "title": "Grenade",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 69,
+        "image": "/weaponData/Weapons/3.Rare/69.png",
+        "title": "Shredder",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 70,
+        "image": "/weaponData/Weapons/3.Rare/70.png",
+        "title": "Gusto",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 71,
+        "image": "/weaponData/Weapons/3.Rare/71.png",
+        "title": "Corporal",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 72,
+        "image": "/weaponData/Weapons/3.Rare/72.png",
+        "title": "Blaze",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 73,
+        "image": "/weaponData/Weapons/3.Rare/73.png",
+        "title": "Proton",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 74,
+        "image": "/weaponData/Weapons/3.Rare/74.png",
+        "title": "Justice",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 75,
+        "image": "/weaponData/Weapons/3.Rare/75.png",
+        "title": "Eagle",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+    {
+        "id": 76,
+        "image": "/weaponData/Weapons/3.Rare/76.png",
+        "title": "Fusion",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+
+    {
+        "id": 77,
+        "image": "/weaponData/Weapons/3.Rare/77.png",
+        "title": "Kalashnia",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+
+    {
+        "id": 78,
+        "image": "/weaponData/Weapons/3.Rare/78.png",
+        "title": "Haywire",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+
+    {
+        "id": 79,
+        "image": "/weaponData/Weapons/3.Rare/79.png",
+        "title": "Whisper",
+        "supply": 300 ,
+        "tier": "Rare"
+    },
+
+
+    {
+        "id": 102,
+        "image": "/weaponData/Weapons/4.Epic/102.png",
+        "title": "Fusion Launcher",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+
+    {
+        "id": 103,
+        "image": "/weaponData/Weapons/4.Epic/103.png",
+        "title": "Deadbolt",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 104,
+        "image": "/weaponData/Weapons/4.Epic/104.png",
+        "title": "Genesis",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 105,
+        "image": "/weaponData/Weapons/4.Epic/105.png",
+        "title": "Lightning Blade",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 106,
+        "image": "/weaponData/Weapons/4.Epic/106.png",
+        "title": "Extermination",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 107,
+        "image": "/weaponData/Weapons/4.Epic/107.png",
+        "title": "Ubiquity",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 108,
+        "image": "/weaponData/Weapons/4.Epic/108.png",
+        "title": "Tuco-X",
+        "supply": 200 ,
+        "tier": "Epic"
+    },
+
+    {
+        "id": 135,
+        "image": "/weaponData/Weapons/5.Legendary/135.png",
+        "title": "Coagulator",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 136,
+        "image": "/weaponData/Weapons/5.Legendary/136.png",
+        "title": "Falcon",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 137,
+        "image": "/weaponData/Weapons/5.Legendary/137.png",
+        "title": "Deloria",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 138,
+        "image": "/weaponData/Weapons/5.Legendary/138.png",
+        "title": "Ripper",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 139,
+        "image": "/weaponData/Weapons/5.Legendary/139.png",
+        "title": "Anti-Matter",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 140,
+        "image": "/weaponData/Weapons/5.Legendary/140.png",
+        "title": "All-Mighty",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 141,
+        "image": "/weaponData/Weapons/5.Legendary/141.png",
+        "title": "Phantom Blaster",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 142,
+        "image": "/weaponData/Weapons/5.Legendary/142.png",
+        "title": "Hate Executioner",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 143,
+        "image": "/weaponData/Weapons/5.Legendary/143.png",
+        "title": "Turbine",
+        "supply": 100 ,
+        "tier": "Legendary"
+    },
+
+    {
+        "id": 144,
+        "image": "/weaponData/Weapons/5.Legendary/144.png",
+        "title": "Devourer",
+        "supply": 100 ,
+        "tier": "Legendary"
+    }
+
+
+
+
+
+    
+]
