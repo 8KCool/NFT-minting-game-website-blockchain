@@ -16,4 +16,4 @@ function Aboutus () {
     )
 }
 
-export default Ourteam
+export default Aboutus
