@@ -3,7 +3,7 @@ import React from 'react'
 function About () {
     return (
     <div className='flex flex-col items-center mx-16'>
-                <h1 data-aos="fade" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase mb-[22px] font-semibold mt-[40px]'>
+                <h1 data-aos="fade" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase mb-[22px] font-semibold mt-[60px]'>
                     About Us
                 </h1>
                 <p data-aos="fade" className='text-[20px] font-Kanit text-gray-400 text-justify '>
