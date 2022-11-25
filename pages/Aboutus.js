@@ -1,11 +1,16 @@
 import react from "react";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
 
 
-function Ourteam () {
+function Aboutus () {
     return (
 
         <div className=" flex flex-col items-center">
-            <h1 className=" font-Kanit text-3xl text-center text-white"> Our Team</h1>
+            <Navbar/>
+            <About/>
+            
+            
 
         </div>
     )
