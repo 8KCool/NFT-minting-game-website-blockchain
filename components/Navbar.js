@@ -29,6 +29,7 @@ function Navbar () {
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Roadmap</h1></Link>
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='faqs' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>FAQs</h1></Link>
             <a className="cursor-pointer hover:text-blue-400" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
+            <a className="cursor-pointer hover:text-blue-400" href='/Contactus' ><h1 className='mx-4'>Contacts </h1></a>
             <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
           </div>
 
