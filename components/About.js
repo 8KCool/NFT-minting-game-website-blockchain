@@ -2,7 +2,7 @@ import React from 'react'
 
 function About () {
     return (
-    <div className='flex flex-col items-center mx-16'>
+    <div className='flex flex-col items-center mx-16 mt-10'>
                 <h1 data-aos="fade" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold'>
                     About Us
                 </h1>
