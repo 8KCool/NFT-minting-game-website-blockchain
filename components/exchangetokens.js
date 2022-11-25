@@ -89,7 +89,7 @@ useEffect(() => {
   const doBuyHandler = async () => {
 
     setIsMinting(true)
-    const payableAmount = Math.round(payAmount*10**6 )/10**6
+    const payableAmount = Math.round(payAmount*10**8 )/10**8    
     const {success, status}= await doBuy(payableAmount)
     setStatus({
       success,
