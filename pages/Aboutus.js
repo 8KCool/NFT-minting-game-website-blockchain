@@ -6,7 +6,7 @@ import About from "../components/About";
 function Aboutus () {
     return (
 
-        <div className=" flex flex-col items-center">
+        <div>
             <Navbar/>
             <About/>
             
