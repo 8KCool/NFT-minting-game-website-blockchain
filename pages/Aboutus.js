@@ -8,7 +8,9 @@ function Aboutus () {
 
         <div>
             <Navbar/>
+            <div className=" mt-[40px]">
             <About/>
+            </div>
             
             
 
