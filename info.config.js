@@ -16,9 +16,9 @@ const config = {
 const social ={
   googlePlayStore:'https://play.google.com/store/',
   appleAppStore:'https://www.apple.com/app-store/',
-  twitter:'https://twitter.com/',
-  discord:'https://discord.gg/',
-  telegram:'https://telegram.app/',
-  facebook:'https://facebook.com/'
+  twitter:'https://twitter.com/DexBattleCrypto?t=HXsNBW1j_-SbX4mFuqaftg&s=09',
+  discord:'https://discord.gg/JRMvgjkT',
+  telegram:'https://t.me/+I9YpjZPWNbFmYTA0',
+  facebook:'https://www.facebook.com/profile.php?id=100088108030091'
 }
   export {config , social}
