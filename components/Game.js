@@ -18,7 +18,7 @@ function Game () {
         <div id="game"className='overflow-hidden flex flex-col'>
             <div className='mx-16 flex flex-col items-center justify-between'>
 
-            <h1 data-aos="fade" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold'>
+            <h1 data-aos="fade" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase my-[22px] font-semibold'>
                     Game Concept
                 </h1>
                 <p data-aos="fade" className='text-[20px] font-Kanit text-gray-400 text-justify '>
@@ -27,7 +27,7 @@ function Game () {
                 rewards to upgrade the game characters and weapons efficiently
                 </p>
 
-                <h1 data-aos="flip-right" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold'>
+                <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase my-[22px] font-semibold'>
                     Game story
                 </h1>
                 <div data-aos="fade-up" className=' md:flex-row flex flex-col justify-between'>
@@ -354,7 +354,7 @@ project ever. The Mutated weapon projects
                     </button>
                 </div>
 
-                <h1 data-aos="flip-right" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>
+                <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase my-[22px] font-semibold mt-4'>
                     DexBattle Characters
                 </h1>
 

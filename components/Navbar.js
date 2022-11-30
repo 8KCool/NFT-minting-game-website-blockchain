@@ -22,20 +22,20 @@ function Navbar () {
           />
         </li>
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='game' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Game</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Roadmap</h1></Link>
-            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='faqs' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>FAQs</h1></Link>
-            <a className="cursor-pointer hover:text-blue-400" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
-            <a className="cursor-pointer hover:text-blue-400" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
-            <a className="cursor-pointer hover:text-blue-400" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='game' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Game</h1></Link>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Roadmap</h1></Link>
+            <Link className="cursor-pointer hover:text-brand-yellow" acticeClass ="active" to='faqs' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>FAQs</h1></Link>
+            <a className="cursor-pointer hover:text-brand-yellow" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
+            <a className="cursor-pointer hover:text-brand-yellow" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
+            <a className="cursor-pointer hover:text-brand-yellow" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
           </div>
 
         <li>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-400 hover:text-black  hover:font-semibold'>
-            <a href='/mint2'><h1 className='mx-4 uppercase tracking-wide'>MINT NOW</h1> </a>
+        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-brand-yellow hover:text-black  hover:font-semibold'>
+            <a href='/mint2'><h1 className='mx-4 uppercase tracking-wide'>Buy now</h1> </a>
 
           </div>
           

@@ -4,6 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
+import { social , config } from '../info.config';
  
 export default function FAQs() {
   const [open, setOpen] = useState(0);
@@ -19,22 +20,21 @@ export default function FAQs() {
  
   return (
     <div id='faqs'className='mx-16 p-6 my-[44px] rounded-lg'>
-      <h1 className='text-3xl text-blue-400 font-Kanit text-center uppercase font-semibold tracking-wide'> Frequently Asked Questions</h1>
+      <h1 className='text-3xl bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'> Frequently Asked Questions</h1>
       <Accordion open={open === 1} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(1)} className='text-white font-Kanit text-[22px]'>
-          How to mint Dexbattle NFTs?
+          How to get Dexbattle Characters and Weapons?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
-          To mint DexBattle nfts you need to have $Dex coins. You can earn $Dex coins by playing DexBattle. Also you can buy $Dex Coins from our <a href="/exchnage" className="text-semibold text-blue-500">exchnage.</a>
-          After that you can mint DexBattle nfts from our <a href="/mint2" className="text-semibold text-blue-500">minting page. </a>You need to connect your metamask or binance wallet first.
+          You can get dex characters and weapons as ERC-1155 fungable tokens on <a href={social.opensea} className="text-blue-400">Opeansea.</a>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} animate={customAnimation} className='text-white font-Kanit text-[22px]'>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          How to buy Dex Coins?
+          What are Dex Coin tokens?
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
-        You can earn Dex coins by playing DexBattle and you can swap BNB with Dex Coins from our instant <a href="/exchnage" className="text-semibold text-blue-500">exchnage.</a> 
+        In the next phase we are hoping to launch $Dex as In-game BEP20 tokens.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} animate={customAnimation} className='text-white font-Kanit text-[22px]'>
@@ -43,12 +43,12 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
           <ul>
-            <li>Leader items - 100 000 $Dex</li>
-            <li>Legendary items - 1000 $Dex</li>
-            <li>Epic items - 500 $Dex</li>
-            <li>Rear items - 300 $Dex</li>
-            <li>Common items - 200 $Dex</li>
-            <li>Uncommon items - 100 $Dex</li>
+            <li>Leader items - {config.leader_items_cost} BNB</li>
+            <li>Legendary items - {config.legendary_items_cost} BNB</li>
+            <li>Epic items - {config.epic_items_cost} BNB</li>
+            <li>Rear items - {config.rare_items_cost} BNB</li>
+            <li>Unommon items - {config.uncommon_items_cost} BNB</li>
+            <li>Common items - {config.common_items_cost} BNB</li>
           </ul>
         </AccordionBody>
       </Accordion>
@@ -58,12 +58,12 @@ export default function FAQs() {
         </AccordionHeader>
         <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
         <ul>
-            <li>Leader items - 25</li>
-            <li>Legendary items - 500</li>
-            <li>Epic items - 1000</li>
-            <li>Rear items - 2000</li>
-            <li>Common items - 2500</li>
-            <li>Uncommon items - 5000</li>
+            <li>Leader items - {config.LeaderSupply}</li>
+            <li>Legendary items - {config.LegendarySupply}</li>
+            <li>Epic items - {config.EpicSupply}</li>
+            <li>Rear items - {config.RareSupply}</li>
+            <li>Uncommon items - {config.UncommonSupply}</li>
+            <li>Common items - {config.CommonSupply}</li>
           </ul>
         </AccordionBody>
       </Accordion>

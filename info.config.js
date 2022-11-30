@@ -5,20 +5,22 @@ const config = {
     RareSupply:500,
     UncommonSupply:1000,
     CommonSupply: 2500,
-    leader_items_cost: 100000,
-    legendary_items_cost: 200,
-    epic_items_cost: 150,
-    rare_items_cost: 100,
-    uncommon_items_cost: 75,
-    common_items_cost: 50
+
+    leader_items_cost: 3,
+    legendary_items_cost: 0.1,
+    epic_items_cost: 0.05,
+    rare_items_cost: 0.03,
+    uncommon_items_cost: 0.02,
+    common_items_cost: 0.003
 }
 
 const social ={
   googlePlayStore:'https://play.google.com/store/',
   appleAppStore:'https://www.apple.com/app-store/',
-  twitter:'https://twitter.com/DexBattleCrypto?t=HXsNBW1j_-SbX4mFuqaftg&s=09',
-  discord:'https://discord.gg/JRMvgjkT',
-  telegram:'https://t.me/+I9YpjZPWNbFmYTA0',
-  facebook:'https://www.facebook.com/profile.php?id=100088108030091'
+  twitter:'https://twitter.com/',
+  discord:'https://discord.gg/',
+  telegram:'https://telegram.app/',
+  facebook:'https://facebook.com/',
+  opensea: 'https://opeansea.io'
 }
   export {config , social}

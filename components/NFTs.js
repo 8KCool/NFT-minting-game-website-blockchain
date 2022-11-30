@@ -16,7 +16,7 @@ function Nfts () {
         <div id="nfts"className='overflow-hidden flex flex-col'>
     <div className='flex flex-col my-10 mx-16 justify-between items-center'>
        <div className='mt-10'>
-        <h1 data-aos="flip-right" className='text-3xl text-blue-400  font-Kanit text-center uppercase font-semibold tracking-wide'>The Problem</h1>
+        <h1 data-aos="flip-right" className='text-[40px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent  font-Kanit text-center uppercase font-semibold tracking-wide'>The Problem</h1>
         <p data-aos="flip-right" className='text-center font-Kanit text-[20px] text-gray-400 mt-4 mb-5'>
         Dex battle game was created because there are far too many blockchain games that lack good visuals, and the PC
 gaming area is mostly disregarded by P2E producers. Furthermore, traditional games do not provide their players with
@@ -24,7 +24,7 @@ a play-to-earn structure. Over 1 billion players have been playing games for yea
 them. They spend hundreds of dollars on skins and other <br/>
 in-game things, yet they cannot sell them. This represents a return on investment.
             </p>
-            <h1 data-aos="flip-right" className='text-3xl text-blue-400  font-Kanit text-center uppercase mt-10 font-semibold tracking-wide'>Our Solution</h1>
+            <h1 data-aos="flip-right" className='text-[40px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent  font-Kanit text-center uppercase mt-10 font-semibold tracking-wide'>Our Solution</h1>
         <p  data-aos="flip-right" className='text-center font-Kanit text-[20px] text-gray-400 mt-4 mb-5'>
         We want to create a play-to-earn iOS and Android game with stunning visuals and gameplay
 to attract a share of the 1 billion conventional Android gamers. We also hope to supply our
@@ -43,13 +43,13 @@ experience.
 
 
 <div className='mt-10'>
-        <h1 data-aos="flip-right" className='text-3xl text-blue-400 font-Kanit text-center uppercase font-semibold tracking-wide'>NFT Characters</h1>
+        <h1 data-aos="flip-right" className='text-[40px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'>NFT Characters</h1>
         <p data-aos="flip-right" className='text-center font-Kanit text-[20px] text-gray-400 mt-4'>
         Every character in the Dex battle P2E game is an NFT asset that can be enhanced using gemstones, and in-game currency (Dex
 Token). Players will utilize their characters to complete objectives, win fights, and gain prizes in many game formats, including
 guilds systems.
             </p>
-            <h1 data-aos="flip-right" className='text-3xl text-blue-400 font-Kanit text-center uppercase mt-10 font-semibold tracking-wide'>NFT marketplace</h1>
+            <h1 data-aos="flip-right" className='text-[40px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase mt-10 font-semibold tracking-wide'>NFT marketplace</h1>
         <p data-aos="flip-right" className='text-center font-Kanit text-[20px] text-gray-400 mt-4'>
         NFT market place will be created with whitelisting, presale and public sales funtionality to buy the NFTs with your token only and auction and lottery
 too. Dex coin features blockchain-based digital assets know as &ldquo;NFTs&ldquo; that operate on an eco-friendly proof-of-stake blockchain. Because blockchain
@@ -69,17 +69,12 @@ buy with crypto payment from the game.
             <img class="object-cover w-full lg:mx-6 lg:w-auto rounded-xl h-72 lg:h-96" src="/DexBattle PNG/DexBattle-Characters.jpg"alt=""/>
 
             <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
-                <p class="text-[28px] tracking-wide text-blue-500 uppercase mb-8 font-Kanit font-semibold">Mint DexBattle nfts with dex coins</p>
+                <p class="text-[28px] tracking-wide text-blue-500 uppercase mb-8 font-Kanit font-semibold">Buy Dex battle characters and weapons on opensea</p>
 
                 <a href="/exchange">
                 <button type="button" class="text-white my-3 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center mr-2 mb-2 font-Kanit">
-                    Buy Dex Coin Tokens</button>
+                    Buy on Opeansea</button>
                 </a>
-
-
-                <a href="/mint2">
-                <button type="button" class="text-white my-3 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center mr-2 mb-2 font-Kanit">
-                    Mint DexBattale NFTs</button></a>
             </div>
         </div>
     </div>

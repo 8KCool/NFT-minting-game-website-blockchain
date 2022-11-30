@@ -18,7 +18,7 @@ function Coins () {
         <div id="dexcoin"className='overflow-hidden flex flex-col items-center'>
      <div className='flex flex-row mx-16 justify-between items-center'>
           <div className='flex flex-col my-4 w-[70%] mr-10'>
-            <h1 data-aos="flip-right" className='text-5xl font-Kanit text-blue-400 tracking-wide uppercase'>Token</h1>
+            <h1 data-aos="flip-right" className='text-[40px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase'>Token</h1>
             <h1 data-aos="flip-right"className='text-[20px] font-Kanit text-gray-400 text-justify mt-6'>
             The token name is Dex coin. The token will be launched on the Binance Smart chain. It will be a native Bep20 which will
 be transferable in the cryptocurrency ecosystem as well as within the game.
@@ -64,9 +64,9 @@ overall brand of Dex coin.
         </div>
 
         <div className='mb-4'>
-                    <a href='/exchange'><button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
-                        Buy Dex Coin Tokens
-                    </button></a>
+                    <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
+                        Coming Soon
+                    </button>
         </div>
 
         <div>

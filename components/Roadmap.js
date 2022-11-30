@@ -5,12 +5,12 @@ import React from 'react'
 function Roadmap () {
     return (
     < div id="roadmap"className='mx-16 my-8'>
-    <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-[36px] my-8 ">Roadmap</h1>
+    <h1 className=" font-Kanit tracking-wide uppercase bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent text-[40px] my-8 ">Roadmap</h1>
   <div className='flex flex-row w-full h-full justify-between'>
-  <div className='flex flex-col w-full h-full border border-blue-300 items-center rounded-lg '>
+  <div className='flex flex-col w-full h-full border-y border-blue-300 items-center'>
 
      <div className='flex flex-col mt-10 '>
-      <h1 className=" font-Kanit tracking-wide uppercase text-yellow-600 text-2xl"> Phase 01</h1>
+      <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-2xl "> Phase 01</h1>
       <div className='flex flex-row '>
       <div className=' h-auto w-0.5 border border-white mt-0 ml-4'></div>
          <ol className="mt-6 ml-10 font-Kanit tracking-wide list-disc text-gray-400 text-2xl">
@@ -26,12 +26,11 @@ function Roadmap () {
     </div>
 
     <div className='flex flex-col '>
-      <h1 className=" font-Kanit tracking-wide uppercase text-yellow-600 text-2xl"> Phase 02</h1>
+      <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-2xl mt-6"> Phase 02</h1>
       <div className='flex flex-row '>
       <div className=' h-auto w-0.5 border border-white mt-0 ml-4'></div>
          <ol className="mt-6 ml-10 font-Kanit tracking-wide list-disc text-gray-400 text-2xl">
         <li>Launch Nft</li>
-        <li>Launch token</li>
         <li>5000 Discord member</li>
         <li>Airdrop</li>
         <li>Launch game</li>
@@ -44,11 +43,12 @@ function Roadmap () {
 
 
     <div className='flex flex-col '>
-      <h1 className=" font-Kanit tracking-wide uppercase text-yellow-600 text-2xl"> Phase 03</h1>
+      <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-2xl mt-6"> Phase 03</h1>
       <div className='flex flex-row '>
       <div className=' h-auto w-0.5 border border-white mt-0 ml-4'></div>
          <ol className="mt-6 ml-10 font-Kanit tracking-wide list-disc text-gray-400 text-2xl">
         <li>15,000 Discord member</li>
+        <li>Launch Token</li>
         <li>PVE Mode</li>
         <li>P2E game launch</li>
         <li>Gameplay upgrade</li>
@@ -61,7 +61,7 @@ function Roadmap () {
     </div>  
 
     <div className='flex flex-col mb-10'>
-      <h1 className=" font-Kanit tracking-wide uppercase text-yellow-600 text-2xl"> More Comming...</h1>
+      <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-2xl mt-6"> More Comming...</h1>
       <div className='flex flex-row '>
       <div className=' h-auto w-0.5 border border-white mt-0 ml-4'></div>
          <ol className="mt-6 ml-10 font-Kanit tracking-wide list-disc text-gray-400 text-2xl">
