@@ -7,7 +7,7 @@ function Roadmap () {
     < div id="roadmap"className='mx-16 my-8'>
     <h1 className=" font-Kanit tracking-wide uppercase bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent text-[40px] my-8 ">Roadmap</h1>
   <div className='flex flex-row w-full h-full justify-between'>
-  <div className='flex flex-col w-full h-full border-y border-blue-300 items-center'>
+  <div className='flex flex-col w-full h-full  items-center'>
 
      <div className='flex flex-col mt-10 '>
       <h1 className=" font-Kanit tracking-wide uppercase text-blue-400 text-2xl "> Phase 01</h1>
@@ -48,7 +48,8 @@ function Roadmap () {
       <div className=' h-auto w-0.5 border border-white mt-0 ml-4'></div>
          <ol className="mt-6 ml-10 font-Kanit tracking-wide list-disc text-gray-400 text-2xl">
         <li>15,000 Discord member</li>
-        <li>Launch Token</li>
+        <li>Launch Dex Coin</li>
+        <li>Launch Marketplace</li>
         <li>PVE Mode</li>
         <li>P2E game launch</li>
         <li>Gameplay upgrade</li>

@@ -8,7 +8,7 @@ function Footer () {
 
       <div class=" bg-gray-900">
           <div class="max-w-2xl mx-auto text-white py-10">
-              <div class="text-center">
+              <div class="text-center items-center">
                   <h3 class="text-3xl mb-3"> Download DexBattle </h3>
                   <p> Make your own story. </p>
                   <div class="flex justify-center my-10">
@@ -31,8 +31,9 @@ function Footer () {
                       </div>
                       </a>
                   </div>
+
               </div>
-              <div class="mt-8 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+              <div class="w full gap-5 mt-8 flex flex-col md:flex-row lg:flex-raw md:justify-between items-center text-sm text-gray-400">
                   <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; All rights reserved Dexbattle, 2022 </p>
                   <div class="order-1 md:order-2">
                       <a href='/Contactus'><span class="px-2">Contact us</span></a>
@@ -40,6 +41,8 @@ function Footer () {
                       <a href='/privacyPolicy'><span class="px-2 border-l">Privacy Policy</span></a>
                   </div>
               </div>
+
+              
           </div>
       </div>
     )

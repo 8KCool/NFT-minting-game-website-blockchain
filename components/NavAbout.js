@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {Link} from 'react-scroll/modules';
+import {Link} from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { social } from '../info.config';
@@ -25,12 +25,7 @@ function Navbar () {
         </li>
         </a>
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='game' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Game</h1></Link>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='roadmap' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Roadmap</h1></Link>
-            <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='faqs' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>FAQs</h1></Link>
+            <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'><h1 className='mx-4'>Whitepaper</h1></a>
@@ -66,8 +61,8 @@ function Navbar () {
       :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
       }>
       <div className='flex w-full items-center justify-between'>
-      <Link className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} duration={500}>
-                <a>
+      <a className="cursor-pointer" href='/'>
+                
                   <Image
                     src="/Dex.png"
                     width='45'
@@ -75,8 +70,8 @@ function Navbar () {
                     alt='/'
                     className="rounded-md"
                   />
-                </a>
-              </Link>
+                
+              </a>
               <div onClick={handleNav}
               className='fixed md:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
               <AiOutlineClose size={18} />
@@ -90,28 +85,20 @@ function Navbar () {
             <div  className='py-4 flex flex-col '>
         <ul className='uppercase text-gray-200 font-Kanit text-center'>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
+            <a onClick={() => setNav(false)} href='/'>Home</a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}>NFTs</Link>            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}>Dex Coin</Link>
+            <a onClick={() => setNav(false)} href='/Aboutus' >About us</a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='game' spy={true} smooth={true} offset={-100} duration={500}>Game</Link>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='roadmap' spy={true} smooth={true} offset={-100} duration={500}>Roadmap</Link>
-            </li>
-            <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='about' spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+            <a onClick={() => setNav(false)} href='/Contactus' >Contact Us</a>
             </li>
             <li>
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
             </li>
             <li>
         <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
-            <a href='/mint'><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>MINT NOW</h1> </a>
+            <a href={social.opensea}><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>BUY NOW</h1> </a>
 
           </div>
           </li>
