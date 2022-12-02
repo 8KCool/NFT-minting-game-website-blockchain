@@ -15,12 +15,14 @@ const config = {
 }
 
 const social ={
-  googlePlayStore:'https://play.google.com/store/',
+  googlePlayStore:'https://play.google.com/store/', // will update after game launch to play store and app store
   appleAppStore:'https://www.apple.com/app-store/',
-  twitter:'https://twitter.com/',
-  discord:'https://discord.gg/',
-  telegram:'https://telegram.app/',
-  facebook:'https://facebook.com/',
-  opensea: 'https://opeansea.io'
+  twitter:'https://twitter.com/DexBattleCrypto', 
+  discord:'https://discordapp.com/channels/1043087722065186867/1043087722702700602',
+  telegram:'://t.me/+I9YpjZPWNbFmYTA0',
+  facebook:'hhttps://www.facebook.com/profile.php?id=100088108030091',
+  opensea: 'https://opeansea.io' // will update after we create opeansea collection
 }
   export {config , social}
+
+
