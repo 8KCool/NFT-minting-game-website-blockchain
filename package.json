@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
+    "@formspree/react": "^2.4.1",
     "@material-tailwind/react": "^1.2.4",
     "aos": "^2.3.4",
     "apexcharts": "^3.36.3",

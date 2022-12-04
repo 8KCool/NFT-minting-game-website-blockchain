@@ -19,9 +19,10 @@ const social ={
   appleAppStore:'https://www.apple.com/app-store/',
   twitter:'https://twitter.com/DexBattleCrypto', 
   discord:'https://discordapp.com/channels/1043087722065186867/1043087722702700602',
-  telegram:'://t.me/+I9YpjZPWNbFmYTA0',
+  telegram:'https://t.me/+I9YpjZPWNbFmYTA0',
   facebook:'hhttps://www.facebook.com/profile.php?id=100088108030091',
-  opensea: 'https://opeansea.io' // will update after we create opeansea collection
+  opensea: 'https://opensea.io', // will update after we create opeansea collection
+  email : 'admin@dexbattle.com'
 }
   export {config , social}
 
