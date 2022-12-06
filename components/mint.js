@@ -130,7 +130,7 @@ useEffect(() => {
     <div className="min-h-screen bg-gradient-to-tr from-[#141414] to-[#330042] justify-center items-center pb-10 flex flex-col overflow-hidden">
 
 <div className='sticky top-0 w-screen mx-10 md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md my-4'>
-      <ul className='flex flex-row items-center justify-between '>
+      <ul className='flex flex-row items-center justify-between mx-8'>
         <li className='ml-6'>
           <img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
