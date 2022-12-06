@@ -4,6 +4,7 @@ import Weaplist from './WeaponData.json'
 import Cards from "./card";
 import { initOnboard } from "../ulits/onboard"
 import { config, social } from '../info.config'
+import image from "next/image";
 
 import {Link} from 'react-scroll/modules';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -221,10 +222,10 @@ useEffect(() => {
             <a onClick={() => setNav(false)} href='/'>Home</a>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} href='/Aboutus' >Charcters</Link>
+            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='characters' spy={true} smooth={true} offset={-70} duration={500} onClick={() => setNav(false)} >Charcters</Link>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)} href='/Contactus' >Weapons</Link>
+            <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='Weapons' spy={true} smooth={true} offset={-70} duration={500} onClick={() => setNav(false)} >Weapons</Link>
             </li>
             <li>
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
@@ -317,7 +318,7 @@ useEffect(() => {
       
 
 
-        <h1 className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Characters</h1>
+        <h1 id="Characters" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Characters</h1>
         <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg: my-4">
         { Chalist.filter((item) => {
                 if(searchTerm == ""){
@@ -330,7 +331,7 @@ useEffect(() => {
       ))}
     </div>
 
-    <h1 className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Weapons</h1>
+    <h1 id="Weapons" className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Weapons</h1>
         <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg:mx-4 my-4">
         { Weaplist.filter((item) => {
                 if(searchTerm == ""){
