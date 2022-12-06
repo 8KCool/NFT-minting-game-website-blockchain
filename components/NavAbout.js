@@ -32,9 +32,9 @@ function Navbar () {
           </div>
 
         <li>
-        <a href={social.opensea}>
+        <a href='/mintingPortal'>
         <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
-            <h1 className='mx-4 uppercase tracking-wide'>Buy now</h1>
+            <h1 className='mx-4 uppercase tracking-wide'>Mint now</h1>
 
           </div>
           </a>
@@ -97,8 +97,8 @@ function Navbar () {
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
             </li>
             <li>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
-            <a href={social.opensea}><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>BUY NOW</h1> </a>
+        <div className='py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black mt-4'>
+            <a href='/mintingPortal'><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>MINT NOW</h1> </a>
 
           </div>
           </li>
