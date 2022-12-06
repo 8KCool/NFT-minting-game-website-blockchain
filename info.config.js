@@ -1,17 +1,17 @@
 const config = {
-    LeaderSupply:25 ,
-    LegendarySupply:100,
-    EpicSupply:200,
-    RareSupply:500,
-    UncommonSupply:1000,
-    CommonSupply: 2500,
+  LeaderSupply:25 ,
+  LegendarySupply:150,
+  EpicSupply:250, // change values here
+  RareSupply:350,
+  UncommonSupply:400,
+  CommonSupply:500,
 
-    leader_items_cost: 3,
-    legendary_items_cost: 0.1,
-    epic_items_cost: 0.05,
-    rare_items_cost: 0.03,
-    uncommon_items_cost: 0.02,
-    common_items_cost: 0.003
+  leader_items_cost: 3,
+  legendary_items_cost: 1,
+  epic_items_cost: 0.5,
+  rare_items_cost: 0.1,
+  uncommon_items_cost: 0.05,
+  common_items_cost: 0.001
 }
 
 const social ={

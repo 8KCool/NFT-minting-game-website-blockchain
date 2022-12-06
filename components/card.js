@@ -88,7 +88,7 @@ useEffect(() => {
     <div class="relative">
       <img class="w-full rounded-xl" src={image} alt="Character" />
       <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">{tier}</p>
-      <p class="absolute top-0 right-0 bg-white text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">{cost} $Dex</p>
+      <p class="absolute top-0 right-0 bg-white text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">{cost} BNB</p>
     </div>
     <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">{title}</h1>
     <div class="my-4">

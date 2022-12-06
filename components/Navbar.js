@@ -93,7 +93,8 @@ function Navbar () {
             <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
             </li>
             <li  className='py-4 text-sm hover:text-white'>
-            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}>NFTs</Link>            </li>
+            <Link onClick={() => setNav(false)}  className="cursor-pointer" activeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}>NFTs</Link>
+            </li>
             <li  className='py-4 text-sm hover:text-white'>
             <Link onClick={() => setNav(false)} className="cursor-pointer" activeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}>Dex Coin</Link>
             </li>

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import Amzon from "../components/Amzon";
-import NavMint from "../components/NavMint";
+import Mint from "../components/mint";
+import NavMint from "./NavMint";
 
 
-const Minttest= () => {
+const MintImplement= () => {
     return (
         <React.Fragment>
           <div>
           
-          <Amzon/>
+          <Mint/>
           </div> 
         </React.Fragment>
       );

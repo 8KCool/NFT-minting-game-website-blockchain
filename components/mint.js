@@ -108,10 +108,7 @@ useEffect(() => {
       cost = config.legendary_items_cost
     }
     console.log(cost)
-    const price = BigInt(cost*10**18)
-    let {success} = await doApprove(price) 
-      if (success) {
-        const {success , status} = await doMint(id) 
+    const {success , status} = await doMint(cost, id) 
 
         setStatus({
           success,
@@ -119,7 +116,7 @@ useEffect(() => {
           
         })
         
-      }
+      
     
         
         

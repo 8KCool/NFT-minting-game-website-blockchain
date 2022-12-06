@@ -5,7 +5,7 @@ const config = {
   title: 'dex test dapp',
   description: 'test minting Dapp',
   tokenContract: '0x7703A1B5D6FD3980FE2354e566109081a29C334B',
-  nftContract: '0xDc18eE795cf892dD30D7A482E9856DE1d9BDc91b',
+  nftContract: '0x2875F306837b9aBAD2b76c6E4c3D783BB77A016A',
   exchangeContract: '0xDeA764B8bf5b0D3B1096d715a69B864f35A1A138'
 }
 
