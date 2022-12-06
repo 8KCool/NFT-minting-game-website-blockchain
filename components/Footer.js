@@ -11,7 +11,7 @@ function Footer () {
               <div class="text-center items-center">
                   <h3 class="text-3xl mb-3"> Download DexBattle </h3>
                   <p> Make your own story. </p>
-                  <div class="md:flex justify-center my-10 items-center">
+                  <div class="md:flex flex flex-col w-full justify-center my-10 items-center">
                     <a href={social.googlePlayStore}>
                       <div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 md:mb-0 mb-4">
                           <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
