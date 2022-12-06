@@ -184,7 +184,7 @@ useEffect(() => {
 
 
         <h1 className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Characters</h1>
-        <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg: my-4">
+        <div class="md:px-4 grid grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg: my-4">
         { Chalist.filter((item) => {
                 if(searchTerm == ""){
                   return item;
@@ -197,7 +197,7 @@ useEffect(() => {
     </div>
 
     <h1 className='text-[40px] font-Kanit text-blue-400 tracking-wide uppercase my-[22px] font-semibold mt-4'>Weapons</h1>
-        <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg:mx-4 my-4">
+        <div class="md:px-4 grid grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0 lg:mx-4 my-4">
         { Weaplist.filter((item) => {
                 if(searchTerm == ""){
                   return item;
