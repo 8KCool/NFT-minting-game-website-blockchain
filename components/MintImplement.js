@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Mint from "../components/mint";
-import NavMint from "./NavMint";
-
+import Footer from "./Footer";
 
 const Mintimplement= () => {
     return (
@@ -9,6 +8,7 @@ const Mintimplement= () => {
           <div>
           
           <Mint/>
+          <Footer/>
           </div> 
         </React.Fragment>
       );
