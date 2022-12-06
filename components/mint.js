@@ -136,7 +136,7 @@ useEffect(() => {
             src = '/Dex.png'
           />
         </li>
-        <li className="hidden">
+        <li className="hidden md:flex">
         <form className='my-4'>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
     <div class="relative">
@@ -157,7 +157,7 @@ useEffect(() => {
             <a className="cursor-pointer hover:text-blue-400" hfer={social.opensea}><h1 className='mx-4 '>Buy On Opensea</h1></a>
           </div>
 
-        <li className="hidden">
+        <li className="hidden md:flex">
         
             { walletAddress ?  (
             <div className=' py-2 px-4 backdrop-blur-md flex flex-row font-Kanit text-white rounded-md border border-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>
