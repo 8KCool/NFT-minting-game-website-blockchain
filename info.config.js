@@ -11,7 +11,7 @@ const config = {
   epic_items_cost: 0.5,
   rare_items_cost: 0.1,
   uncommon_items_cost: 0.05,
-  common_items_cost: 0.001
+  common_items_cost: 0.01 
 }
 
 const social ={
