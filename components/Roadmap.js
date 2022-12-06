@@ -4,9 +4,9 @@ import React from 'react'
 
 function Roadmap () {
     return (
-    < div id="roadmap"className='mx-16 my-8'>
+    < div id="roadmap"className='md:mx-16 mx-2 my-8'>
     <h1 className=" font-Kanit tracking-wide uppercase bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent text-[40px] my-8 ">Roadmap</h1>
-  <div className='flex flex-row w-full h-full justify-between'>
+  <div className='md:flex flex-row w-full h-full justify-between'>
   <div className='flex flex-col w-full h-full  items-center'>
 
      <div className='flex flex-col mt-10 '>
