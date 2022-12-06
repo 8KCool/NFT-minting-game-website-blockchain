@@ -13,7 +13,7 @@ useEffect(() => {
     }, []); 
 
     return(
-    <div id="home"className='overflow-hidden flex flex-col'>
+    <div id="home"className='overflow-hidden flex flex-col items center'>
         <div className="w-full h-screen flex flex-col items-center justify-center relative">
         <img
           src="/webimage2.png"
@@ -23,18 +23,18 @@ useEffect(() => {
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6  border-b-4 border-brand-yellow'>
-                <h1 className='font-Kanit text-[60px] text-white font-semibold uppercase'> Make your own story <br/>
-                <span className='text-[75px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
+                <h1 className='font-Kanit md:text-[60px] lg:text-[60px] text-[30px] text-white font-semibold uppercase'> Make your own story <br/>
+                <span className='md:text-[75px] text-[35px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
 
-                <div class="flex justify-start mt-10 mb-[60px]">
-            <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
+                <div class="md:flex justify-start mt-10 mb-[60px]">
+            <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download on </p>
                         <p class="text-sm md:text-base text-gray-200"> Google Play Store </p>
                     </div>
                 </div></a>
-                <a href={social.appleAppStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2">
+                <a href={social.appleAppStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download on </p>
@@ -44,9 +44,9 @@ useEffect(() => {
             </div>
 
                          {/* social media icons */}
-           <div className='md:flex-3 w-100 justify-between my-6 '>            
+           <div className='flex w-100 justify-between my-6 '>            
           <nav aria-label="Contact Menu">
-            <ul className="hidden md:flex items-center space-x-4 md:space-x-6">
+            <ul className="flex items-center space-x-4 md:space-x-6">
               <li className="cursor-pointer px-2">
                 <a href={social.opensea} target="_blank" rel="noreferrer">
                   <svg
@@ -150,9 +150,9 @@ useEffect(() => {
        
         </div>
         
-        <div data-aos ="fade-up"className='flex flex-row mx-16 justify-between  bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
-          <div className='flex flex-col my-4 w-[70%] mx-10'>
-            <h1 data-aos="fade-right" className='text-5xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
+        <div data-aos ="fade-up"className='flex md:flex-row flex-col md:mx-16 justify-between bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
+          <div className='flex flex-col my-4 md:w-[70%] md:mx-10 mx-4'>
+            <h1 data-aos="fade-right" className='md:text-5xl text-3xl font-Kanit text-white tracking-wide'>What is DexBattale?</h1>
             <h1 data-aos="fade-right" className='text-[18px] font-Kanit text-gray-400 text-justify mt-6'>
             Welcome to the ever-evolving Dex battle universe! Hone your shooting skills, compete in tournaments, and complete missions with your
 Clan to earn NFTs and coveted rewards. Collect weapons, and so much more items. But most importantly, have fun and work together
@@ -179,7 +179,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
              <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
-            className='mx-10 h-full w-[30%]  border border-gray-400 rounded-lg'/>
+            className='md:mx-10 h-full w-full md:w-[30%]  border border-gray-400 rounded-lg'/>
 
             </div>
 
