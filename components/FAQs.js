@@ -19,29 +19,29 @@ export default function FAQs() {
   };
  
   return (
-    <div id='faqs'className='mx-16 p-6 my-[44px] rounded-lg'>
-      <h1 className='text-3xl bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'> Frequently Asked Questions</h1>
+    <div id='faqs'className='md:mx-16 mx-2 p-6 my-[44px] rounded-lg'>
+      <h1 className='md:text-[40px] text-[30px] bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent font-Kanit text-center uppercase font-semibold tracking-wide'> Frequently Asked Questions</h1>
       <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='text-white font-Kanit text-[22px]'>
+        <AccordionHeader onClick={() => handleOpen(1)} className='text-white font-Kanit text-[22px] text-[20px]'>
           How to get Dexbattle Characters and Weapons?
         </AccordionHeader>
-        <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
+        <AccordionBody className='text-justify text-gray-300 font-Kanit md:text-[20px] text-[18px]'>
           You can get dex characters and weapons as ERC-1155 fungable tokens on <a href={social.opensea} className="text-blue-400">Opeansea.</a>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 2} animate={customAnimation} className='text-white font-Kanit text-[22px]'>
+      <Accordion open={open === 2} animate={customAnimation} className='text-white font-Kanit text-[22px] text-[20px]'>
         <AccordionHeader onClick={() => handleOpen(2)}>
           What are Dex Coin tokens?
         </AccordionHeader>
-        <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
+        <AccordionBody className='text-justify text-gray-300 font-Kanit md:text-[20px] text-[18px]'>
         In the next phase we are hoping to launch $Dex as In-game BEP20 tokens.
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 3} animate={customAnimation} className='text-white font-Kanit text-[22px]'>
+      <Accordion open={open === 3} animate={customAnimation} className='text-white font-Kanit md:text-[22px] text-[20px]'>
         <AccordionHeader onClick={() => handleOpen(3)}>
           How much costs Dexbattle NFTs?
         </AccordionHeader>
-        <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
+        <AccordionBody className='text-justify text-gray-300 font-Kanit md:text-[20px] text-[18px]'>
           <ul>
             <li>Leader items - {config.leader_items_cost} BNB</li>
             <li>Legendary items - {config.legendary_items_cost} BNB</li>
@@ -52,11 +52,11 @@ export default function FAQs() {
           </ul>
         </AccordionBody>
       </Accordion>
-      <Accordion open={open === 4} animate={customAnimation} className='text-white font-Kanit text-[24px]'>
+      <Accordion open={open === 4} animate={customAnimation} className='text-white font-Kanit md:text-[24px] text-[20px]'>
         <AccordionHeader onClick={() => handleOpen(4)}>
           What is the total supply of Dexbattle NFts?
         </AccordionHeader>
-        <AccordionBody className='text-justify text-gray-300 font-Kanit text-[20px]'>
+        <AccordionBody className='text-justify text-gray-300 font-Kanit md:text-[20px] text-[18px]'>
         <ul>
             <li>Leader items - {config.LeaderSupply}</li>
             <li>Legendary items - {config.LegendarySupply}</li>
