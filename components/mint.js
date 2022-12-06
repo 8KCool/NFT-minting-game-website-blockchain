@@ -4,7 +4,7 @@ import Weaplist from './WeaponData.json'
 import Cards from "./card";
 import { initOnboard } from "../ulits/onboard"
 import { config, social } from '../info.config'
-import image from "next/image";
+import Image from "next/image"
 
 import {Link} from 'react-scroll/modules';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
