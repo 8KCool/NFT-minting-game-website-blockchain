@@ -13,7 +13,7 @@ import {
   doMint,
   doApprove          } from '../ulits/interact'
 
-const Amazon = () => {
+const Mint = () => {
     const [searchTerm, setSearchTerm] = useState("")
   
   
@@ -213,4 +213,4 @@ useEffect(() => {
   );
 };
 
-export default Amazon ;
+export default Mint ;

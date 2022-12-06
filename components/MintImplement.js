@@ -3,7 +3,7 @@ import Mint from "../components/mint";
 import NavMint from "./NavMint";
 
 
-const MintImplement= () => {
+const Mintimplement= () => {
     return (
         <React.Fragment>
           <div>
@@ -14,4 +14,4 @@ const MintImplement= () => {
       );
 
 }
-export default Minttest
+export default Mintimplement
