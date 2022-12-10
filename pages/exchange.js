@@ -7,7 +7,7 @@ const ExchangeTokens = dynamic (()=> import("../components/exchangetokens"),{ssr
 export default function test(){
     return(
         <div>
-    {/* <ExchangeTokens/> uncomment this to enable exchange page */}
+     <ExchangeTokens/> 
     </div>
     )
 }
