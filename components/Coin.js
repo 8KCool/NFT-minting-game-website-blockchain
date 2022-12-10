@@ -17,7 +17,7 @@ function Coins () {
     return (
         <div id="dexcoin"className='overflow-hidden flex flex-col items-center'>
      <div className='md:flex flex-row md:mx-16 mx-2 justify-between items-center'>
-          <div className='flex flex-col my-4 md:w-[70%] w-full md:fmr-10'>
+          <div className='flex flex-col my-4 md:w-[70%] w-full md:mr-10'>
             <h1 data-aos="flip-right" className='md:text-[40px] text-[30px] font-Kanit bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent tracking-wide uppercase'>Token</h1>
             <h1 data-aos="flip-right"className='md:text-[20px] text-[16px] font-Kanit text-gray-400 text-justify mt-6'>
             The token name is Dex coin. The token will be launched on the Binance Smart chain. It will be a native Bep20 which will
