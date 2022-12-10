@@ -64,9 +64,11 @@ overall brand of Dex coin.
         </div>
 
         <div className='mb-4'>
-                    <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
-                        Coming Soon
+                    <a href='/exchange'>
+                        <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
+                        Buy Dex Coins
                     </button>
+                    </a>
         </div>
 
         <div>
