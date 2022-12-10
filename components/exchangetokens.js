@@ -149,14 +149,15 @@ return(
       <div className='sticky top-0 w-[800px] mx-10 md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md my-4'>
       <ul className='flex flex-row items-center justify-between my-2'>
         <li className='md:ml-10 lg:ml-10 ml-2'>
-          <img className = 'w-auto h-[55px]' 
+          <a href='/'><img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
           />
+          </a>
         </li>
  
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
-          <a className="cursor-pointer hover:text-blue-400" href='/'> <h1> Home</h1></a>
-            <a className="cursor-pointer hover:text-blue-400" href='/mint2'> <h1> Mint NFTs</h1></a>
+          <a className="mx-4 cursor-pointer hover:text-blue-400" href='/'> <h1> Home</h1></a>
+            <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mint2'> <h1> Mint NFTs</h1></a>
           </div>
 
         <li>
