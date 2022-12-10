@@ -147,7 +147,7 @@ return(
         <div className='w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#141414] to-[#330042]'>
       {/*navbar*/}
       <div className='sticky top-0 w-[800px] mx-10 md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md my-4'>
-      <ul className='flex flex-row items-center justify-between my-2'>
+      <ul className='flex md:flex-row flex-col items-center items-center justify-between my-2'>
         <li className='md:ml-10 lg:ml-10 ml-2'>
           <a href='/'><img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
