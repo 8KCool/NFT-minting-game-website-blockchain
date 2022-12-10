@@ -151,10 +151,10 @@ useEffect(() => {
         </form>
         </li>
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-full text-[20px]'>
-            <a className="cursor-pointer hover:text-blue-400" hfer='/'><h1 className='mx-4'>Home</h1></a>
+            <a className="cursor-pointer hover:text-blue-400" href='/'><h1 className='mx-4'>Home</h1></a>
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='characters' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> Characters </h1></Link>
             <Link className="cursor-pointer hover:text-blue-400" acticeClass ="active" to='weapons' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Weapons</h1></Link>
-            <a className="cursor-pointer hover:text-blue-400" hfer={social.opensea}><h1 className='mx-4 '>Buy On Opensea</h1></a>
+            <a className="cursor-pointer hover:text-blue-400" href={social.opensea}><h1 className='mx-4 '>Buy On Opensea</h1></a>
           </div>
 
         <li className="hidden md:flex">

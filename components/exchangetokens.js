@@ -157,7 +157,7 @@ return(
  
           <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
           <a className="mx-4 cursor-pointer hover:text-blue-400" href='/'> <h1> Home</h1></a>
-            <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mint2'> <h1> Mint NFTs</h1></a>
+            <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mintingPortal'> <h1> Mint NFTs</h1></a>
           </div>
 
         <li>
@@ -203,8 +203,8 @@ return(
             </div>
 
             
-            <Link href='/mint2'><button className="w-full bg-yellow-300 hover:bg-blue-600 text-black font-bold py-2 px-6 rounded-full my-4">
-                 Mint NFTs with Dex coin
+            <Link href='/mintingPortal'><button className="w-full bg-yellow-300 hover:bg-blue-600 text-black font-bold py-2 px-6 rounded-full my-4">
+                 Mint DexBattle NFTs
           </button>
           </Link>
            
