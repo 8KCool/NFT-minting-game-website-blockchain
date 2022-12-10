@@ -179,7 +179,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
              <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
-            className='md:mx-10 h-full w-full md:h-[70%] md:m-4 border border-gray-400 rounded-lg'/>
+            className='md:mx-10 h-full w-full md:w-[70%] border border-gray-400 rounded-lg'/>
 
             </div>
 
