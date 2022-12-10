@@ -132,9 +132,10 @@ useEffect(() => {
 <div className='sticky top-0 w-screen mx-10 md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md my-4'>
       <ul className='flex flex-row items-center justify-between mx-8'>
         <li className='ml-6'>
-          <img className = 'w-auto h-[55px]' 
+          <a href="/"><img className = 'w-auto h-[55px]' 
             src = '/Dex.png'
           />
+          </a>
         </li>
         <li className="hidden md:flex">
         <form className='my-4'>   
