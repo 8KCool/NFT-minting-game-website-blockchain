@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import {social} from './info.config';
 
 
 
@@ -71,9 +72,14 @@ buy with crypto payment from the game.
             <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                 <p class="text-[28px] tracking-wide text-blue-500 uppercase mb-8 font-Kanit font-semibold">Buy Dex battle characters and weapons on opensea</p>
 
-                <a href="/exchange">
+                <a href={social.opensea}>
                 <button type="button" class="text-white my-3 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center mr-2 mb-2 font-Kanit">
                     Buy on Opeansea</button>
+                </a>
+
+                <a href="/exchange">
+                <button type="button" class="text-white my-3 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center mr-2 mb-2 font-Kanit">
+                    Buy Dex Coins</button>
                 </a>
             </div>
         </div>
