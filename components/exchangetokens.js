@@ -269,7 +269,7 @@ return(
                   </div>
                   <div class="flex flex-col items-center justify-between">
 
-                  <h1 className='my-4 w-full font-Kanit text-red-600 text-[17px]'>
+                  <h1 className='mt-4 mb-2 w-full font-Kanit text-red-600 text-[17px]'>
                         Only 5 dex coins per transaction is allowed!
                    </h1>
                     
