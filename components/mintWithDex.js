@@ -110,7 +110,7 @@ useEffect(() => {
     }
     console.log(cost)
     const {success} = await doApprove (cost)
-    if (success = true)
+    if (success)
     {
       const status = await doMint(id)
     } 
