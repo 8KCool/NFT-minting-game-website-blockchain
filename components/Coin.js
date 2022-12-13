@@ -63,7 +63,7 @@ overall brand of Dex coin.
             </div>
         </div>
 
-        <div className='mb-4'>
+        <div className='mb-8'>
                     <a href='/exchange'>
                         <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
                         Buy Dex Coins
@@ -71,7 +71,7 @@ overall brand of Dex coin.
                     </a>
         </div>
 
-        <div className='mb-4'>
+        <div className='mb-8'>
                     <a href='/mintingWithdex'>
                         <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
                         Buy NFTs with Dex coin
