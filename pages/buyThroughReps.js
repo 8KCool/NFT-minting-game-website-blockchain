@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function () {
+export default function buyThroughReps () {
     return (
         <div>
             <h1 className="font-Kanit text-40px text-center text-white">Buy through Our representatives</h1>
