@@ -4,7 +4,7 @@ const Web3 = require("web3");
 const web3 = new Web3(new Web3.providers.HttpProvider(process.env.NEXT_PUBLIC_URL)); 
 
 
-const NFTcontract = require('../artifacts/contracts/DexBattle.sol/DexBattle.json') // replace with new contract ABI
+const NFTcontract = require('../artifacts/contracts/DexBattleWithDex.sol/DexBattleWithDex.json') 
 const nftContract = new web3.eth.Contract(NFTcontract.abi, config.nftContract)
 
 

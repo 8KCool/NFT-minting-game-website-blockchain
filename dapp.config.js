@@ -7,7 +7,7 @@ const config = {
   tokenContract: '0xD946e2db35bA6e2aC40F4D68a270a08c05BAe539',
   nftContract: '0x3C7DA571076b3d72489569ac2A286E5D066b4866',
   exchangeContract: '0x8ff92F5289414dA81eF95f165ac46d8f0Dd50a01',
-  nftwithDexContract: '0xDc18eE795cf892dD30D7A482E9856DE1d9BDc91b' // replace this after deploy new contract
+  nftwithDexContract: '0x76A28d82B62Aa454A3f366C5F08ce43355849897' 
 }
 
 const onboardOptions = {
