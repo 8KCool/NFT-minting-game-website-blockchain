@@ -12,7 +12,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import {
   isPausedState,
   doMint,
-  doApprove          } from '../ulits/interactWithDex'
+  doApprove          } from '../ulits/interactWIthDex'
 
 const Mint = () => {
     const [searchTerm, setSearchTerm] = useState("")
