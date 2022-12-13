@@ -71,6 +71,14 @@ overall brand of Dex coin.
                     </a>
         </div>
 
+        <div className='mb-4'>
+                    <a href='/mintingWithDex'>
+                        <button className=' bg-yellow-400 text-center text-[20px] text-black font-Kanit hover:font-semibold hover:border-white px-[60px] py-2 rounded-lg'>
+                        Mint NFTs with Dex coin
+                    </button>
+                    </a>
+        </div>
+
         <div>
             
         </div>

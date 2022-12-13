@@ -24,6 +24,23 @@ const social ={
   opensea: 'https://opensea.io', // will update after we create opeansea collection
   email : 'admin@dexbattle.com'
 }
-  export {config , social}
+
+const dex ={
+
+  LeaderSupply:25 ,
+  LegendarySupply:150,
+  EpicSupply:250, // change values here
+  RareSupply:350,
+  UncommonSupply:400,
+  CommonSupply:500,
+
+  leader_items_cost: 3000,
+  legendary_items_cost: 200, //replace cost here
+  epic_items_cost: 150,
+  rare_items_cost: 100,
+  uncommon_items_cost: 75,
+  common_items_cost: 50 
+}
+  export {config , social, dex}
 
 
