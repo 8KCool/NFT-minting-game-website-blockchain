@@ -109,7 +109,8 @@ useEffect(() => {
       cost = dex.legendary_items_cost
     }
     console.log(cost)
-    const {success} = await doApprove (cost)
+    const Amount = BigInt(cost*10**18)
+    const {success} = await doApprove (Amount)
     if (success)
     {
       const status = await doMint(id)

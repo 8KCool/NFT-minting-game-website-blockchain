@@ -118,9 +118,9 @@ export const doMint = async (cost, id) => {
     return {
       success: true,
       status: (
-        <a href={`https://testnet.bscscan.com/tx/${txHash}`} target="_blank">
+        <a href={`https://bscscan.com/tx/${txHash}`} target="_blank">
           <p>✅ Check out your transaction on Etherscan:</p>
-          <p>{`https://testnet.bscscan.com/tx/${txHash}`}</p>
+          <p>{`https://bscscan.com/tx/${txHash}`}</p>
         </a>
       )
     }
@@ -159,9 +159,9 @@ export const doMint = async (cost, id) => {
         return {
           success: true,
           status: (
-            <a href={`https://testnet.bscscan.com/tx/${txHash}`} target="_blank">
+            <a href={`https://bscscan.com/tx/${txHash}`} target="_blank">
               <p>✅ Check out your transaction on Etherscan:</p>
-              <p>{`https://testnet.bscscan.com/tx/${txHash}`}</p>
+              <p>{`https://bscscan.com/tx/${txHash}`}</p>
             </a>
           )
         }
