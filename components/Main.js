@@ -30,7 +30,7 @@ useEffect(() => {
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
                     <div class="text-left ml-3">
-                        <p class='text-xs text-gray-200'>Download on </p>
+                        <p class='text-xs text-gray-200'>Get it on </p>
                         <p class="text-sm md:text-base text-gray-200"> Google Play Store </p>
                     </div>
                 </div></a>
@@ -39,6 +39,13 @@ useEffect(() => {
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download on </p>
                         <p class="text-sm md:text-base text-gray-200"> Apple App Store </p>
+                    </div>
+                </div></a>
+                <a href={social.downloadForWindows}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
+                    <img src="https://gifyu.com/image/Skv4E" class="w-7 md:w-8"/> 
+                    <div class="text-left ml-3">
+                        <p class='text-xs text-gray-200'>Download for  </p>
+                        <p class="text-sm md:text-base text-gray-200"> Windows </p>
                     </div>
                 </div></a>
             </div>
