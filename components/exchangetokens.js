@@ -91,7 +91,7 @@ useEffect(() => {
     const fixedNumb =(n, fixed) => ~~(Math.pow(10, fixed)*n)/Math.pow(10, fixed)
 
     setIsMinting(true)
-    const payableAmount = fixedNumb(payAmount, 18)  //round function error
+    const payableAmount = Number(fixedNumb(payAmount, 18))  //round function error
     const {success, status}= await doBuy(payableAmount)
     setStatus({
       success,
