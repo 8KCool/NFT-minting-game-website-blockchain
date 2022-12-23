@@ -6,6 +6,12 @@ export default function Privacy() {
     return(
         
         <div>
+
+    <Head>
+        <title>DexBattle-Term and Conditions</title>
+        <meta name="Description" content="Dex Battle Game!" />
+        <link rel="icon" href="/Dex.png" />
+      </Head>
         <Navbar/>
         <div className="w-screen flex flex-col items-center overflow-hidden">
             <div className=" mx-16 my-4">

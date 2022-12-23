@@ -7,6 +7,11 @@ const Mint = dynamic (()=> import("../components/MintImplementWithDex"),{ssr:fal
 export default function test() {
     return(
         <div>
+    <Head>
+        <title>DexBattle-Buy with Dex Coin</title>
+        <meta name="Description" content="Dex Battle Game!" />
+        <link rel="icon" href="/Dex.png" />
+      </Head>
     <Mint/>
     </div>
     )

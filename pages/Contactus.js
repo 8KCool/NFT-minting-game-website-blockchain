@@ -21,6 +21,12 @@ return (
 
 <div>
 
+<Head>
+        <title>DexBattle-Contact Us</title>
+        <meta name="Description" content="Dex Battle Game!" />
+        <link rel="icon" href="/Dex.png" />
+      </Head>
+
   <Navbar/>
 <section class="relative z-10 overflow-hidden py-20 lg:py-[100px] mx-16">
   <div class="container mx-auto">

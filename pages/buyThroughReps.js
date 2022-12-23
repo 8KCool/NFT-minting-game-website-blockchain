@@ -3,6 +3,11 @@ import React from "react";
 export default function buyThroughReps () {
     return (
         <div>
+            <Head>
+        <title>DexBattle-Representative</title>
+        <meta name="Description" content="Dex Battle Game!" />
+        <link rel="icon" href="/Dex.png" />
+      </Head>
             <h1 className="font-Kanit text-64px text-center text-white mt-8"> Our representatives</h1>
 
             {/*content*/}
