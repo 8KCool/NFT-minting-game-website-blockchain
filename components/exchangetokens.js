@@ -5,6 +5,7 @@ import { config } from '../dapp.config'
 import ChartComponent from "../components/ChartComponent";
 import Footer from "../components/Footer"
 import {Link} from 'next/link';
+import Image from 'next/image';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
   const data = [
