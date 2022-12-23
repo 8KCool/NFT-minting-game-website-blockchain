@@ -1,5 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
+import Head from 'next/head';
+
 
 export default function Privacy() {
 

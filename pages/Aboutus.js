@@ -2,6 +2,7 @@ import react from "react";
 import Navbar from "../components/NavAbout";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import Head from 'next/head';
 
 
 function Aboutus () {

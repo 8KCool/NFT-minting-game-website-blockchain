@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
 import { useForm, ValidationError } from "@formspree/react";
 import {social} from '../info.config'
+import Head from 'next/head';
 
 export default function Contact () {
 
