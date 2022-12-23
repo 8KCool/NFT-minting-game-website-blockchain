@@ -181,12 +181,12 @@ return(
       </div>
 
       {/*Title*/}
-        <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 ">
+        <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 text-center ">
             Instant Dex coin Exchange</h1>
-            <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2">
+            <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2 text-center">
             Swap $Dex with BNB</h1>
 
-        <div className=' flex flex-row items-center justify-between border'>
+        <div className=' flex md:flex-row fex-col items-center justify-between border'>
           {/* <img src='/bg2.jpg'
           className='absolute inset-auto block object-cover'/> */}
 
