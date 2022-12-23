@@ -4,7 +4,7 @@ import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
 import ChartComponent from "../components/ChartComponent";
 import Footer from "../components/Footer"
-import {Link} from 'react-scroll/modules';
+import {Link} from 'next/link';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
   const data = [
@@ -161,7 +161,7 @@ return(
             <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mintingPortal'> <h1> Mint NFTs</h1></a>
           </div>
 
-        <li>
+        <li className='hidden'>
         
             { walletAddress ?  (
             <div className=' py-2 px-4 backdrop-blur-md flex flex-row font-Kanit text-white rounded-md border border-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>
@@ -186,13 +186,73 @@ return(
       
       </div>
 
+                  {/* Mobile Menu */}
+      {/* Overlay */}
+      <div className={
+         nav? 'z-[120] md:hidden fixed left-0 top-0 w-full h-screen bg-gray-400/10 backdrop-filter backdrop-blur-sm' : ""
+        }>
+        
+        {/* Side Drawer Menu */}
+      <div className ={
+        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration-500 border-r-2"
+      :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
+      }>
+      <div className='flex w-full items-center justify-between'>
+      <div className="cursor-pointer">
+                <a>
+                  <Image
+                    src="/Dex.png"
+                    width='45'
+                    height='45'
+                    alt='/'
+                    className="rounded-md"
+                  />
+                </a>
+              </div>
+              <div onClick={handleNav}
+              className='fixed md:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
+              <AiOutlineClose size={18} />
+             </div>
+          </div>
+          <div className='border-b py-4 flex flex-col mt-4'>
+              <p className='uppercase text-[18px] text-white font-Kanit text-center'>
+              Dex Battle Instant Exchange
+              </p>
+            </div>
+            <div  className='py-4 flex flex-col '>
+        <ul className='uppercase text-gray-200 font-Kanit text-center'>
+            <li  className='py-4 text-sm hover:text-white'>
+            <a onClick={() => setNav(false)} href='/'>Home</a>
+            </li>
+            <li  className='py-4 text-sm hover:text-white'>
+            <a onClick={() => setNav(false)} href='/mintingWithdex'>Buy NFTs</a>
+            </li>
+            <li>
+            <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
+            </li>
+            <li>
+        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
+            <a href='/mint'><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>Connect Wallet</h1> </a>
+
+          </div>
+          </li>
+            
+          </ul>
+
+        </div>
+        
+        </div>
+        
+
+      </div>
+
       {/*Title*/}
         <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 ">
             Instant Dex coin Exchange</h1>
             <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2">
             Swap $Dex with BNB</h1>
 
-        <div className=' flex flex-row items-center justify-between border'>
+        <div className=' flex md:flex-row flex-col items-center justify-between border'>
           {/* <img src='/bg2.jpg'
           className='absolute inset-auto block object-cover'/> */}
 

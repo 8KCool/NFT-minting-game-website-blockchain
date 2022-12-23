@@ -15,7 +15,7 @@ function Navbar () {
 
   return (
     <div>
-    <div className='fixed z-[100] w-full h-auto bg-black/30 backdrop-blur-sm overflow-hidden border-b-white'>
+    <div className='fixed z-[100] w-full h-auto bg-black/30 backdrop-blur-sm overflow-x-hidden border-b-white'>
       <ul className='flex flex-row items-center justify-between my-4 mx-10'>
         <a href='/'>
           <li>
