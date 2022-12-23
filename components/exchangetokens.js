@@ -4,10 +4,8 @@ import { initOnboard } from "../ulits/onboard"
 import { config } from '../dapp.config'
 import ChartComponent from "../components/ChartComponent";
 import Footer from "../components/Footer"
-import {Link} from 'next/link';
-import Image from 'next/image';
+import {Link} from 'react-scroll/modules';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Navbar from './navExchange';
 
   const data = [
 	{ value: 30 },
@@ -149,7 +147,38 @@ useEffect(() => {
 return(
         <div className='w-full min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#141414] to-[#330042]'>
       {/*navbar*/}
-    <Navbar/>
+      <div className='sticky top-0 w-[800px] mx-10 md:mx-10 lg:mx-10 bg-black/30 backdrop-blur-sm overflow-hidden border-b-white rounded-md my-4'>
+      <ul className='flex md:flex-row flex-col items-center items-center justify-between my-2'>
+        <li className='md:ml-10 lg:ml-10 ml-2'>
+          <a href='/'><img className = 'w-auto h-[55px]' 
+            src = '/Dex.png'
+          />
+          </a>
+        </li>
+ 
+          <div className='bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
+          <a className="mx-4 cursor-pointer hover:text-blue-400" href='/'> <h1> Home</h1></a>
+            <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mintingPortal'> <h1> Mint NFTs</h1></a>
+          </div>
+
+        <li>
+        
+            { walletAddress ?  (
+            <div className=' py-2 px-4 backdrop-blur-md flex flex-row font-Kanit text-white rounded-md border border-white bg-gradient-to-r from-green-300 via-blue-500 to-purple-600'>
+            <h1 className='mx-4 uppercase tracking-wide'>Connected: {walletAddress.slice(0, 8) + '...' + walletAddress.slice(-4)}</h1> </div>
+            ) : (
+            <div className=' py-2 px-4 backdrop-blur-md flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 hover:text-black cursor-pointer' onClick={connectWalletHandler}>
+            <h1 className='mx-4 uppercase tracking-wide'>Connect Wallet</h1></div>
+            )
+            }
+
+          
+          
+        </li>
+
+      </ul>
+      
+      </div>
 
       {/*Title*/}
         <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 ">
@@ -157,7 +186,7 @@ return(
             <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2">
             Swap $Dex with BNB</h1>
 
-        <div className=' flex md:flex-row flex-col items-center justify-between border'>
+        <div className=' flex flex-row items-center justify-between border'>
           {/* <img src='/bg2.jpg'
           className='absolute inset-auto block object-cover'/> */}
 
