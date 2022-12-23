@@ -99,7 +99,7 @@ explaining how to manage everything like minting, presale, whitelisting
           <div className=" w-full h-full flex flex-col items-center">
             <div className="flex flex-col items-center">
               <h1 className='font-Kanit text-2xl text-gray-400'>Roddx</h1>
-              <img src="/partnets/Roddx.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
+              <img src="/partners/Roddx.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
               <div className='my-2'><button className='bg-green-400 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></div>
             </div>
           </div>
@@ -117,7 +117,7 @@ explaining how to manage everything like minting, presale, whitelisting
           <div className=" w-full h-full flex flex-col items-center">
             <div className="flex flex-col items-center">
             <h1 className='font-Kanit text-2xl text-gray-400'>Roddx Rides</h1>
-              <img src="/partners/Roodx Rides.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
+              <img src="/partners/Roddx Rides.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
               <div className='my-2'><button className='bg-yellow-600 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></div>
             </div>
           </div>
