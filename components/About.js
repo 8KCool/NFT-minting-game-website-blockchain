@@ -100,7 +100,7 @@ explaining how to manage everything like minting, presale, whitelisting
             <div className="flex flex-col items-center">
               <h1 className='font-Kanit text-2xl text-gray-400'>Roddx</h1>
               <img src="/partners/Roddx.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
-              <div className='my-2'><button className='bg-green-400 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></div>
+              <a className='my-2' href='https://roddx.com'><button className='bg-green-400 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></a>
             </div>
           </div>
 
@@ -108,7 +108,7 @@ explaining how to manage everything like minting, presale, whitelisting
             <div className="flex flex-col items-center">
             <h1 className='font-Kanit text-2xl text-gray-400'>Roddx Food</h1>
               <img src="/partners/Roddx Food.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
-              <div className='my-2'><button className='bg-red-400 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></div>
+              <a className='my-2' href='https://foods.roddx.com'><button className='bg-red-400 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></a>
             </div>
           </div>
 
@@ -118,7 +118,7 @@ explaining how to manage everything like minting, presale, whitelisting
             <div className="flex flex-col items-center">
             <h1 className='font-Kanit text-2xl text-gray-400'>Roddx Rides</h1>
               <img src="/partners/Roddx Rides.png" className="object-cover w-full sm:h-[200px] md:w-[200px] rounded-md border border-gray-300"/>
-              <div className='my-2'><button className='bg-yellow-600 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></div>
+              <a className='my-2' href='https://roddxrides.com'><button className='bg-yellow-600 border border-white text-white font-Kanit hover:text-black rounded-lg py-2 px-[50px]'>Buy Now</button></a>
             </div>
           </div>
 
