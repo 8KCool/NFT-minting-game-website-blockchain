@@ -8,12 +8,7 @@ function Reps () {
     <div className='flex flex-col items-center md:mx-16 mx-2 overflow-hidden'>
      <h1 className="font-Kanit md:text-[64px] text-[40px] text-center text-blue-400 mt-[100px]"> Our representatives</h1>
 
-{/*content*/}
-
-
-<div className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2">
-    
-        
+{/*content*/} 
         <div className='flex flex-row  md:my-8 my-2'>
     
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray- md:mx-8 mx-2">
@@ -71,7 +66,7 @@ function Reps () {
 
         </div>
     
-</div>
+
 
      </div>
      
