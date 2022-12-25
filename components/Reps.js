@@ -5,13 +5,13 @@ function Reps () {
     return (
     
     <div>
-    <div className='flex flex-col items-center mx-16'>
+    <div className='flex flex-col items-center mx-16 overflow-hidden'>
      <h1 className="font-Kanit md:text-[64px] text-[40px] text-center text-blue-400 mt-[100px]"> Our representatives</h1>
 
 {/*content*/}
 
 
-<div className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2 overflow-hidden">
+<div className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2">
     
         
         <div className='flex md:flex-row flex-col md:my-8 my-2'>
