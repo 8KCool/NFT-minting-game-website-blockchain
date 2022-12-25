@@ -104,7 +104,6 @@ export const doMint = async (id) => {
   const tx = {
     to: config.nftwithDexContract,
     from: window.ethereum.selectedAddress,
-    gas: String(25000),
     data: nftContract.methods.mint(id).encodeABI(),
     nonce: nonce.toString(16)
   }
