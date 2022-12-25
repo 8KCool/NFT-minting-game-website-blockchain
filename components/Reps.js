@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 function Reps () {
     return (
@@ -8,10 +9,10 @@ function Reps () {
 {/*content*/}
 
 
-<ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx-16">
+<ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2">
     <li>
         
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 my-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 md:my-8 my-2'>
     
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
@@ -59,6 +60,7 @@ function Reps () {
                             <hl className='font-Kanit text-[25px] ml-2'>+20100633105</hl>
                         </div>
                     </div>
+                    
             </div>
 
 
@@ -70,6 +72,7 @@ function Reps () {
     <li>Sri Lanka</li>
     <li>Pakistan</li> */}
 </ul>
+<Footer/>
      </div>
     )}
 export default Reps
