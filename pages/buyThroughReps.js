@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 export default function buyThroughReps () {
     return (
-        <div>
+        <div className="flex flex-col">
             <Head>
                 <title>DexBattle-Representative</title>
                 <meta name="Description" content="Dex Battle Game!" />
