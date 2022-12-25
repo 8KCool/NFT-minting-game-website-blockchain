@@ -19,7 +19,7 @@ function Reps () {
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">UAE</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Mohammed Fahmy</h5>
                         <div className="flex justify-between items-center">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-md'/>
                             <hl className='font-Kanit text-[25px] ml-2'>+971554740803</hl>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function Reps () {
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Morocco</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Abdeladim Nait Brahim</h5>
                         <div className="flex justify-between items-center">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-md'/>
                             <hl className='font-Kanit text-[25px] ml-2'>+21263688602</hl>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ function Reps () {
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Turkey</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Nadir Emre Yenigün</h5>
                         <div className="flex justify-between items-center">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-md'/>
                             <hl className='font-Kanit text-[25px] ml-2'>+905354199983</hl>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ function Reps () {
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Egypt</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Magdy Ahmed El Zanaty</h5>
                         <div className="flex justify-between items-center">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-md'/>
                             <hl className='font-Kanit text-[25px] ml-2'>+20100633105</hl>
                         </div>
                     </div>
