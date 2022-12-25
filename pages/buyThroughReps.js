@@ -17,7 +17,7 @@ export default function buyThroughReps () {
       <div>
         <Reps/>
       </div>
-      <Fotter/>
+      <Footer/>
         </div>
     )
 }
