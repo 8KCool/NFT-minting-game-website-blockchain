@@ -12,7 +12,9 @@ export default function buyThroughReps () {
       </Head>
 
       <Navbar/>
-            <h1 className="font-Kanit md:text-[64px] text-[40px] text-center text-white mt-[100px]"> Our representatives</h1>
+
+      <div className="mt-[100px]">
+            <h1 className="font-Kanit md:text-[64px] text-[40px] text-center text-white"> Our representatives</h1>
 
             {/*content*/}
 
@@ -28,7 +30,7 @@ export default function buyThroughReps () {
                                     <h5 class="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">UAE</h5>
                                     <h5 class="mb-2 text-[30px] font-bold tracking-tight text-gray-700 dark:text-white">Name here</h5>
                                     <div className="flex justify-between">
-                                        <img src="/whatsapp.svg" classname='h-[40px] w-[40px]'/>
+                                        <img src="/whatsapp.svg" classname='h-[70px] w-[70px]'/>
                                         <hl className='font-Kanit text-[30px]'>number here</hl>
                                     </div>
                                 </div>
@@ -43,6 +45,7 @@ export default function buyThroughReps () {
                 <li>Sri Lanka</li>
                 <li>Pakistan</li> */}
             </ul>
+            </div>
         </div>
     )
 }
