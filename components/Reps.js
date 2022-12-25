@@ -50,7 +50,7 @@ function Reps () {
                     </div>
             </div>
 
-            <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2 md:mt-0 mt-4">
+            <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2 md:mt-0 my-4">
                 <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
                     <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Egypt</h5>
