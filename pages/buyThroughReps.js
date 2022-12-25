@@ -14,9 +14,10 @@ export default function buyThroughReps () {
             </Head>
 
       <Navbar/>
-      <div>
+      <div className="md:my-4">
         <Reps/>
       </div>
+      <Footer/>
       
         </div>
     )

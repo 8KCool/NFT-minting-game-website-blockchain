@@ -60,7 +60,7 @@ function Reps () {
                     <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Egypt</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Magdy Ahmed El Zanaty</h5>
-                        <div className="flex md:flex-row flex-col justify-between items-center">
+                        <div className="flex justify-between items-center">
                             <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-md'/>
                             <hl className='font-Kanit text-[25px] ml-2'>+20100633105</hl>
                         </div>
