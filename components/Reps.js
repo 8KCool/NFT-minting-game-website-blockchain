@@ -11,7 +11,7 @@ function Reps () {
 <ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx-16">
     <li>
         
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 my-8'>
             
             <div class="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
@@ -19,7 +19,7 @@ function Reps () {
                         <h5 class="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">UAE</h5>
                         <h5 class="mb-2 text-[30px] font-bold tracking-tight text-gray-700 dark:text-white">Name here</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.svg" classname='h-[60px] w-[60px]'/>
+                            <img src="/whatsapp.png" className='h-[60px] w-[60px]'/>
                             <hl className='font-Kanit text-[30px]'>number here</hl>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ function Reps () {
                         <h5 class="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">UAE</h5>
                         <h5 class="mb-2 text-[30px] font-bold tracking-tight text-gray-700 dark:text-white">Name here</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.svg" classname='h-[60px] w-[60px]'/>
+                            <img src="/whatsapp.png" className='h-[60px] w-[60px]'/>
                             <hl className='font-Kanit text-[30px]'>number here</hl>
                         </div>
                     </div>
