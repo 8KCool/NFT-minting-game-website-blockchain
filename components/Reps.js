@@ -11,7 +11,7 @@ function Reps () {
 {/*content*/}
 
 
-<ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2">
+<ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx- mx-2 overflow-hidden">
     <li>
         
         <div className='flex md:flex-row flex-col md:my-8 my-2'>
