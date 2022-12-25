@@ -14,49 +14,49 @@ function Reps () {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 my-8'>
     
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
-                    <div className="flex flex-col items-start">
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                    <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">UAE</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Mohammed Fahmy</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-xl'/>
-                            <hl className='font-Kanit text-[30px]'>+971554740803</hl>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <hl className='font-Kanit text-[25px] ml-2'>+971554740803</hl>
                         </div>
                     </div>
             </div>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
-                    <div class="flex flex-col items-start">
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                    <div class="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Morocco</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Abdeladim Nait Brahim</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-xl'/>
-                            <hl className='font-Kanit text-[30px]'>+21263688602</hl>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <hl className='font-Kanit text-[25px] ml-2'>+21263688602</hl>
                         </div>
                     </div>
             </div>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
-                    <div className="flex flex-col items-start">
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                    <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Turkey</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Nadir Emre Yenigün</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-xl'/>
-                            <hl className='font-Kanit text-[30px]'>+905354199983</hl>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <hl className='font-Kanit text-[25px] ml-2'>+905354199983</hl>
                         </div>
                     </div>
             </div>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
-                    <div className="flex flex-col items-start">
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                    <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Egypt</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Magdy Ahmed El Zanaty</h5>
                         <div className="flex justify-between">
-                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-xl'/>
-                            <hl className='font-Kanit text-[30px]'>+20100633105</hl>
+                            <img src="/whatsapp.png" className='h-[50px] w-[50px] rounded-full'/>
+                            <hl className='font-Kanit text-[25px] ml-2'>+20100633105</hl>
                         </div>
                     </div>
             </div>
