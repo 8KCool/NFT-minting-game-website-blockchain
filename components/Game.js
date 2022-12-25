@@ -579,20 +579,20 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">Flake</h1>
         <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <li>Walk speed: </li>
-            <li>Run speed:</li>
-            <li>Stealth speed:</li>
-            <li>Acceleration:</li>
-            <li>Crouch speed:</li>
-            <li>Crouch transition speed:</li>
-            <li>Slide speed:</li>
-            <li>Jumpforce:</li>
-            <li>Jumprate:</li>
-            <li>Gravitymultiplier:</li>
-            <li>Health:</li>
-            <li>Start to regenerate in:</li>
-            <li>Regeneration speed:</li>
-            <li>Regenerate upto:</li>
+            <li>Walk speed:5.72 </li>
+            <li>Run speed:7.36</li>
+            <li>Stealth speed:1</li>
+            <li>Acceleration:8.3</li>
+            <li>Crouch speed:2</li>
+            <li>Crouch transition speed:0.16</li>
+            <li>Slide speed:12</li>
+            <li>Jumpforce:4.6</li>
+            <li>Jumprate:0.82</li>
+            <li>Gravitymultiplier:2</li>
+            <li>Health:100</li>
+            <li>Start to regenerate in:4</li>
+            <li>Regeneration speed:3(max)</li>
+            <li>Regenerate upto:75</li>
         </ol>
     </div>
     </div>
@@ -635,20 +635,13 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">DR. MG</h1>
         <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <li>Walk speed: </li>
-            <li>Run speed:</li>
-            <li>Stealth speed:</li>
-            <li>Acceleration:</li>
-            <li>Crouch speed:</li>
-            <li>Crouch transition speed:</li>
-            <li>Slide speed:</li>
-            <li>Jumpforce:</li>
-            <li>Jumprate:</li>
-            <li>Gravitymultiplier:</li>
-            <li>Health:</li>
-            <li>Start to regenerate in:</li>
-            <li>Regeneration speed:</li>
-            <li>Regenerate upto:</li>
+            <li className='text-justify'>The Almighty Leader of the Marstens team .
+He has unknown power and he is the leader of The Marstens. 
+People cannot use him for playing the game as a characters now , 
+but who has this NFT would be able to join The Marstens Team league and obtain privilages.
+Dr.M.G. May appear in the game ,
+character selection and it would be your chance to feel yourself unbeatable.</li>
+          
         </ol>
     </div>
     </div>
@@ -663,20 +656,20 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">Angela</h1>
         <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            <li>Walk speed: </li>
-            <li>Run speed:</li>
-            <li>Stealth speed:</li>
-            <li>Acceleration:</li>
-            <li>Crouch speed:</li>
-            <li>Crouch transition speed:</li>
-            <li>Slide speed:</li>
-            <li>Jumpforce:</li>
-            <li>Jumprate:</li>
-            <li>Gravitymultiplier:</li>
-            <li>Health:</li>
-            <li>Start to regenerate in:</li>
-            <li>Regeneration speed:</li>
-            <li>Regenerate upto:</li>
+            <li>Walk speed:5.89 </li>
+            <li>Run speed:9.16</li>
+            <li>Stealth speed1:</li>
+            <li>Acceleration:9</li>
+            <li>Crouch speed:2</li>
+            <li>Crouch transition speed:0.16</li>
+            <li>Slide speed12:</li>
+            <li>Jumpforce:7</li>
+            <li>Jumprate:0.82</li>
+            <li>Gravitymultiplier:2</li>
+            <li>Health:100</li>
+            <li>Start to regenerate in:4</li>
+            <li>Regeneration speed:3(max)</li>
+            <li>Regenerate upto:75</li>
         </ol>
     </div>
     </div>
