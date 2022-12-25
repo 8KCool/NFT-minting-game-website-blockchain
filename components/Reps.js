@@ -11,7 +11,7 @@ function Reps () {
 <ul className="text-blue-400 font-Kanit text-50px max-h-screen justify-evenly flex flex-col md:mx-16">
     <li>
         
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-5 '>
             
             <div class="flex flex-col items-center bg-white border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg m-3" src="/placeholder.png" alt=""/>
