@@ -8,7 +8,7 @@ export default function buyThroughReps () {
     return (
         <div className="flex flex-col">
             <Head>
-                <title>DexBattle-Representative</title>
+                <title>DexBattle-Our Representatives</title>
                 <meta name="Description" content="Dex Battle Game!" />
                 <link rel="icon" href="/Dex.png" />
             </Head>

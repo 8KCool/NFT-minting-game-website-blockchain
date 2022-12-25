@@ -9,7 +9,7 @@ function Reps () {
      <h1 className="font-Kanit md:text-[64px] text-[40px] text-center text-blue-400 mt-[100px]"> Our representatives</h1>
 
 {/*content*/} 
-        <div className='flex flex-row  md:my-8 my-2'>
+        <div className='flex md:flex-row flex-col  md:my-8 my-2'>
     
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray- md:mx-8 mx-2">
                 <img className="object-cover border border-gray-900 w-full rounded-lg h-48 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
@@ -36,7 +36,7 @@ function Reps () {
             </div>
             </div>
 
-            <div className='flex flex-row  md:mt-8 mt-4'>
+            <div className='flex md:flex-row flex-col md:mt-8 mt-4'>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2">
                 <img className="object-cover border border-gray-900 w-full rounded-lg h-48 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
