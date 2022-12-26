@@ -5,7 +5,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider(process.env.NEXT_PUBLIC_UR
 
 
 const NFTcontract = require('../artifacts/contracts/DexBattleWithDex.sol/DexBattleWithDex.json') 
-const nftContract = new web3.eth.Contract(NFTcontract.abi, config.nftwithDexContract)
+const nftwithDexContract = new web3.eth.Contract(NFTcontract.abi, config.nftwithDexContract)
 
 const TokenContract = require('../artifacts/contracts/DexCoin.sol/DexCoin.json')
 const tokenContract = new web3.eth.Contract(TokenContract.abi , config.tokenContract)
@@ -104,7 +104,7 @@ export const doMint = async (id) => {
   const tx = {
     to: config.nftwithDexContract,
     from: window.ethereum.selectedAddress,
-    data: nftContract.methods.mint(id).encodeABI(),
+    data: nftwithDexContract.methods.mint(id).encodeABI(),
     nonce: nonce.toString(16)
   }
   try {
