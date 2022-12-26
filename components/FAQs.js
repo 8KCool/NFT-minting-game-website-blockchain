@@ -46,7 +46,7 @@ export default function FAQs() {
             <li>Leader items - {config.leader_items_cost} BNB</li>
             <li>Legendary items - {config.legendary_items_cost} BNB</li>
             <li>Epic items - {config.epic_items_cost} BNB</li>
-            <li>Rear items - {config.rare_items_cost} BNB</li>
+            <li>Rare items - {config.rare_items_cost} BNB</li>
             <li>Unommon items - {config.uncommon_items_cost} BNB</li>
             <li>Common items - {config.common_items_cost} BNB</li>
           </ul>
@@ -61,7 +61,7 @@ export default function FAQs() {
             <li>Leader items - {config.LeaderSupply}</li>
             <li>Legendary items - {config.LegendarySupply}</li>
             <li>Epic items - {config.EpicSupply}</li>
-            <li>Rear items - {config.RareSupply}</li>
+            <li>Rare items - {config.RareSupply}</li>
             <li>Uncommon items - {config.UncommonSupply}</li>
             <li>Common items - {config.CommonSupply}</li>
           </ul>
