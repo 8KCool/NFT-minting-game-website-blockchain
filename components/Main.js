@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {social} from "../info.config";
-import video1 from '../public/videos/main.mp4'
+import video1 from '/videos/main.mp4'
 
 export default function Main() {
 
