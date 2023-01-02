@@ -69,7 +69,7 @@ buy with crypto payment from the game.
         <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
             <img class="object-cover w-full lg:mx-6 lg:w-auto rounded-xl h-72 lg:h-96" src="/DexBattle PNG/DexBattle-Characters.jpg"alt=""/>
 
-            <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+            {/* <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                 <p class="text-[28px] tracking-wide text-blue-500 uppercase mb-8 font-Kanit font-semibold">Buy Dex battle characters and weapons on opensea</p>
 
                 <a href={social.opensea}>
@@ -81,7 +81,7 @@ buy with crypto payment from the game.
                 <button type="button" class="text-white my-3 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center mr-2 mb-2 font-Kanit">
                     Buy Dex Coins</button>
                 </a>
-            </div>
+            </div> */}
         </div>
     </div>
 </section>
