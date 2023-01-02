@@ -3,7 +3,7 @@ import { initOnboard } from "../ulits/onboard"
 import React from "react";
 import {
     getTotalMinted,
-    isPausedState          } from '../ulits/interactWIthDex'
+    isPausedState          } from '../ulits/interactWIthDex' 
     import { config , dex } from '../info.config'
 
 
