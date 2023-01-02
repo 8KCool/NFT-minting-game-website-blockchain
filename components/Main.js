@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {social} from "../info.config";
+import video1 from '../public/videos/main.mp4'
 
 export default function Main() {
 
@@ -198,7 +199,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
 
           <div className='w-full flex-row items-end'>
 
-            <video src='/videos/main.mp4' autoPlay muted loop
+            <video src={video1} autoPlay muted loop
                     className='w-full h-full border-gray-400 rounded-lg' />
              {/* <img
             data-aos="flip-up"
