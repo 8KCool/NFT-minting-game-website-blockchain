@@ -66,8 +66,8 @@ buy with crypto payment from the game.
     <div class="container px-6 py-10 mx-auto">
         
 
-        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
-            <img class="object-cover w-full lg:mx-6 lg:w-auto rounded-xl h-72 lg:h-96" src="/DexBattle PNG/DexBattle-Characters.jpg"alt=""/>
+        <div class="mt-8 md:mx-6 md:flex md:items-center">
+            <img class="object-cover w-full h-full rounded-xl" src="/DexBattle PNG/DexBattle-Characters.jpg"alt=""/>
 
             {/* <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                 <p class="text-[28px] tracking-wide text-blue-500 uppercase mb-8 font-Kanit font-semibold">Buy Dex battle characters and weapons on opensea</p>
