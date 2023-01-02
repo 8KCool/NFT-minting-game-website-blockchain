@@ -172,9 +172,9 @@ useEffect(() => {
        
         </div>
 
-        <div className=' w-full h-full flex flex-col my-8'>
+        <div className=' w-full h-full flex flex-col md:my-8 md:mx-16 mx-4 my-4 border-gray-400 rounded-lg'>
           <video src={require('../assests/Main.mp4')} autoPlay muted loop
-                    className='w-full h-full border-gray-400 rounded-lg object-cover' />
+                    className='w-full h-full  object-cover' />
         </div>
         
         <div data-aos ="fade-up"className='flex md:flex-row flex-col md:mx-16 justify-between bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
