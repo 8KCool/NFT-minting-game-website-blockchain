@@ -199,7 +199,7 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
 
           <div className='w-full flex-row items-end'>
 
-            <video src={video1} autoPlay muted loop
+            <video src={require('../assests/Main.mp4')} autoPlay muted loop
                     className='w-full h-full border-gray-400 rounded-lg' />
              {/* <img
             data-aos="flip-up"
