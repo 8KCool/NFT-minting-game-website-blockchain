@@ -24,7 +24,7 @@ function Reps () {
             </div>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2 md:mt-0 mt-4">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-[200px]  md:w-[300px] m-3" src="https://flagcdn.com/w2560/ma.png" alt=""/>
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-[200px] md:w-[300px] m-3" src="https://flagcdn.com/w2560/ma.png" alt=""/>
                     <div class="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Morocco</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Abdeladim Nait Brahim</h5>
@@ -39,7 +39,7 @@ function Reps () {
             <div className='flex md:flex-row flex-col md:mt-8 mt-4'>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-[200px] md:w-[300px] m-3" src="https://flagcdn.com/w2560/tr.png/placeholder.png" alt=""/>
                     <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Turkey</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Nadir Emre Yenigün</h5>
@@ -51,7 +51,7 @@ function Reps () {
             </div>
 
             <div className="flex flex-col items-center bg-[#eee3d3] border rounded-lg shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 md:mx-8 mx-2 md:my-0 my-4">
-                <img className="object-cover border border-gray-900 w-full rounded-lg h-96 md:h-auto md:w-48 m-3" src="/placeholder.png" alt=""/>
+                <img className="object-cover border border-gray-900 w-full rounded-lg h-[200px] md:w-[300px] m-3" src="https://flagcdn.com/w2560/eg.png" alt=""/>
                     <div className="flex flex-col items-start mx-4">
                         <h5 className="mb-2 text-[40px] font-bold tracking-tight text-gray-900 dark:text-white">Egypt</h5>
                         <h5 className="mb-2 text-[25px] font-bold tracking-tight text-gray-700 dark:text-white">Magdy Ahmed El Zanaty</h5>
