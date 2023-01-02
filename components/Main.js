@@ -173,7 +173,7 @@ useEffect(() => {
         </div>
 
         <div className=' w-full h-full flex flex-col md:my-8 md:px-16 px-4 my-4 border-gray-400 rounded-lg'>
-          <video src={require('../assests/Main.mp4')} autoPlay loop
+          <video src={require('../assests/Main.mp4')} autoPlay muted loop controls
                     className='w-full h-auto object-cover' />
         </div>
         
