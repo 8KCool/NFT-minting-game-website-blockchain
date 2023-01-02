@@ -171,6 +171,11 @@ useEffect(() => {
         </div>
        
         </div>
+
+        <div className=' w-full h-full flex flex-col my-8'>
+          <video src={require('../assests/Main.mp4')} autoPlay muted loop
+                    className='w-full h-full border-gray-400 rounded-lg object-cover' />
+        </div>
         
         <div data-aos ="fade-up"className='flex md:flex-row flex-col md:mx-16 justify-between bg-gray-700/40 backdrop-blur-sm rounded-lg items-center'>
           <div className='flex flex-col my-4 md:w-[70%] md:mx-10 mx-4'>
@@ -198,13 +203,10 @@ selling for millions of dollars, these fees may outweigh the revenue earned by i
           </div>
 
           <div className='w-full flex-row items-end'>
-
-            <video src={require('../assests/Main.mp4')} autoPlay muted loop
-                    className='w-full h-full border-gray-400 rounded-lg' />
-             {/* <img
+           <img
             data-aos="flip-up"
             src='/DexBattle PNG/DexBattle-nostore.jpg'
-            className='md:mx-10 h-full w-full md:w-[70%] border border-gray-400 rounded-lg'/> */}
+            className='md:mx-10 h-full w-full md:w-[70%] border border-gray-400 rounded-lg'/>
 
             </div>
 
