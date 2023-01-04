@@ -4,7 +4,16 @@
         "image": "/weaponData/Weapons/1.Common/15.png",
         "title": "Blade",
         "supply": 500 ,
-        "tier": "Common"
+        "tier": "Common",
+
+        "type": "",
+        "info" : "Knife",
+        "damage" : "45",
+        "fire rate" : "0.09",
+        "reload time" : "1.9",
+        "range" : "700",
+        "accuracy" :"2",
+        "weight" : "2"
     },
 
     {
@@ -12,7 +21,16 @@
         "image": "/weaponData/Weapons/1.Common/16.png",
         "title": "Tuco",
         "supply": 500 ,
-        "tier": "Common"
+        "tier": "Common",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "30",
+        "fire rate" : "0.25",
+        "reload time" : "1.5",
+        "range" : "300",
+        "accuracy" :"3",
+        "weight" : "1.85"
     },
 
     {
@@ -20,7 +38,16 @@
         "image": "/weaponData/Weapons/1.Common/17.png",
         "title": "Tortuga",
         "supply": 500 ,
-        "tier": "Common"
+        "tier": "Common",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "37",
+        "fire rate" : "0.25",
+        "reload time" : "1.5",
+        "range" : "300",
+        "accuracy" :"3",
+        "weight" : "1.85"
     },
 
     {
@@ -28,7 +55,16 @@
         "image": "/weaponData/Weapons/2.Uncommon/40.png",
         "title": "Molotov",
         "supply": 400 ,
-        "tier": "Uncommon"
+        "tier": "Uncommon",
+
+        "type": "",
+        "info" : "Launcher",
+        "damage" : "20",
+        "fire rate" : "1",
+        "reload time" : "1.2",
+        "range" : "300",
+        "accuracy" :"2",
+        "weight" : "0"
     },
 
     {
@@ -36,7 +72,16 @@
         "image": "/weaponData/Weapons/2.Uncommon/41.png",
         "title": "Activa",
         "supply": 400 ,
-        "tier": "Unommon"
+        "tier": "Unommon",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "35",
+        "fire rate" : "0.25",
+        "reload time" : "1.5",
+        "range" : "300",
+        "accuracy" :"4",
+        "weight" : "1.8"
     },
 
     {
@@ -44,7 +89,16 @@
         "image": "/weaponData/Weapons/2.Uncommon/42.png",
         "title": "Neutralizer",
         "supply": 400 ,
-        "tier": "Uncommon"
+        "tier": "Uncommon",
+
+        "type": "",
+        "info" : "Brust",
+        "damage" : "30",
+        "fire rate" : "0.1",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"1",
+        "weight" : "1.6"
     },
 
     {
@@ -52,7 +106,16 @@
         "image": "/weaponData/Weapons/2.Uncommon/43.png",
         "title": "Rapido",
         "supply": 400 ,
-        "tier": "Uncommon"
+        "tier": "Uncommon",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "35",
+        "fire rate" : "0.1",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"1",
+        "weight" : "1.6"
     },
 
     {
@@ -60,7 +123,16 @@
         "image": "/weaponData/Weapons/2.Uncommon/44.png",
         "title": "Lava Blade",
         "supply": 400 ,
-        "tier": "Uncommon"
+        "tier": "Uncommon",
+
+        "type": "",
+        "info" : "Sword",
+        "damage" : "50",
+        "fire rate" : "0.7",
+        "reload time" : "1",
+        "range" : "2",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
     
     {
@@ -68,7 +140,16 @@
         "image": "/weaponData/Weapons/3.Rare/68.png",
         "title": "Grenade",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Granade",
+        "damage" : "30",
+        "fire rate" : "2",
+        "reload time" : "2",
+        "range" : "125",
+        "accuracy" :"1",
+        "weight" : "1.7"
     },
 
     {
@@ -76,7 +157,16 @@
         "image": "/weaponData/Weapons/3.Rare/69.png",
         "title": "Shredder",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "",
+        "damage" : "",
+        "fire rate" : "",
+        "reload time" : "",
+        "range" : "",
+        "accuracy" :"",
+        "weight" : ""
     },
 
     {
@@ -84,7 +174,16 @@
         "image": "/weaponData/Weapons/3.Rare/70.png",
         "title": "Gusto",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "",
+        "damage" : "",
+        "fire rate" : "",
+        "reload time" : "",
+        "range" : "",
+        "accuracy" :"",
+        "weight" : ""
     },
 
     {
@@ -92,7 +191,16 @@
         "image": "/weaponData/Weapons/3.Rare/71.png",
         "title": "Corporal",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Shotgun",
+        "damage" : "70",
+        "fire rate" : "1.25",
+        "reload time" : "6",
+        "range" : "100",
+        "accuracy" :"1",
+        "weight" : "2.2"
     },
 
     {
@@ -100,7 +208,16 @@
         "image": "/weaponData/Weapons/3.Rare/72.png",
         "title": "Blaze",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Sword",
+        "damage" : "70",
+        "fire rate" : "0.7",
+        "reload time" : "1",
+        "range" : "4",
+        "accuracy" :"1",
+        "weight" : "1.6"
     },
 
     {
@@ -108,7 +225,16 @@
         "image": "/weaponData/Weapons/3.Rare/73.png",
         "title": "Proton",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Granade",
+        "damage" : "50",
+        "fire rate" : "0.7",
+        "reload time" : "1",
+        "range" : "125",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -116,7 +242,16 @@
         "image": "/weaponData/Weapons/3.Rare/74.png",
         "title": "Justice",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Knife",
+        "damage" : "50",
+        "fire rate" : "0.7",
+        "reload time" : "1",
+        "range" : "2",
+        "accuracy" :"1",
+        "weight" : "1"
     },
 
     {
@@ -124,7 +259,16 @@
         "image": "/weaponData/Weapons/3.Rare/75.png",
         "title": "Eagle",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Sniper",
+        "damage" : "80",
+        "fire rate" : "1.9",
+        "reload time" : "3",
+        "range" : "700",
+        "accuracy" :"5",
+        "weight" : "2.2"
     },
 
     {
@@ -132,7 +276,16 @@
         "image": "/weaponData/Weapons/3.Rare/76.png",
         "title": "Fusion",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "40",
+        "fire rate" : "0.096",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"2",
+        "weight" : "2"
     },
 
 
@@ -141,7 +294,16 @@
         "image": "/weaponData/Weapons/3.Rare/77.png",
         "title": "Kalashnia",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "45",
+        "fire rate" : "0.09",
+        "reload time" : "1.9",
+        "range" : "700",
+        "accuracy" :"2",
+        "weight" : "2"
     },
 
 
@@ -150,16 +312,34 @@
         "image": "/weaponData/Weapons/3.Rare/78.png",
         "title": "Haywire",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "40",
+        "fire rate" : "0.1",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"2",
+        "weight" : "1.95"
     },
 
 
     {
         "id": 79,
         "image": "/weaponData/Weapons/3.Rare/79.png",
-        "title": "Whisper",
+        "title": "Whisperare",
         "supply": 300 ,
-        "tier": "Rare"
+        "tier": "Rare",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "25",
+        "fire rate" : "0.15",
+        "reload time" : "1.5",
+        "range" : "270",
+        "accuracy" :"3",
+        "weight" : "2"
     },
 
 
@@ -168,7 +348,16 @@
         "image": "/weaponData/Weapons/4.Epic/102.png",
         "title": "Fusion Launcher",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Launcher",
+        "damage" : "75",
+        "fire rate" : "2",
+        "reload time" : "3",
+        "range" : "100",
+        "accuracy" :"1",
+        "weight" : "2.5"
     },
 
 
@@ -177,7 +366,16 @@
         "image": "/weaponData/Weapons/4.Epic/103.png",
         "title": "Deadbolt",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "50",
+        "fire rate" : "0.09",
+        "reload time" : "1.9",
+        "range" : "750",
+        "accuracy" :"2",
+        "weight" : "2"
     },
 
     {
@@ -185,7 +383,16 @@
         "image": "/weaponData/Weapons/4.Epic/104.png",
         "title": "Genesis",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "25",
+        "fire rate" : "0.08",
+        "reload time" : "2",
+        "range" : "500",
+        "accuracy" :"1",
+        "weight" : "1.75"
     },
 
     {
@@ -193,7 +400,16 @@
         "image": "/weaponData/Weapons/4.Epic/105.png",
         "title": "Lightning Blade",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Sword",
+        "damage" : "70",
+        "fire rate" : "0.4",
+        "reload time" : "1",
+        "range" : "4",
+        "accuracy" :"1",
+        "weight" : "1.55"
     },
 
     {
@@ -201,7 +417,16 @@
         "image": "/weaponData/Weapons/4.Epic/106.png",
         "title": "Extermination",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Shotgun",
+        "damage" : "75",
+        "fire rate" : "1.2",
+        "reload time" : "1",
+        "range" : "100",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -209,7 +434,16 @@
         "image": "/weaponData/Weapons/4.Epic/107.png",
         "title": "Ubiquity",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Granade",
+        "damage" : "70",
+        "fire rate" : "0.7",
+        "reload time" : "1",
+        "range" : "125",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -217,7 +451,16 @@
         "image": "/weaponData/Weapons/4.Epic/108.png",
         "title": "Tuco-X",
         "supply": 200 ,
-        "tier": "Epic"
+        "tier": "Epic",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "50",
+        "fire rate" : "0.25",
+        "reload time" : "1",
+        "range" : "300",
+        "accuracy" :"3",
+        "weight" : "1.9"
     },
 
     {
@@ -225,7 +468,16 @@
         "image": "/weaponData/Weapons/5.Legendary/135.png",
         "title": "Coagulator",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "45",
+        "fire rate" : "0.085",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"5",
+        "weight" : "3"
     },
 
     {
@@ -233,7 +485,16 @@
         "image": "/weaponData/Weapons/5.Legendary/136.png",
         "title": "Falcon",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Sniper",
+        "damage" : "100",
+        "fire rate" : "1.7",
+        "reload time" : "2.7",
+        "range" : "800",
+        "accuracy" :"5",
+        "weight" : "3"
     },
 
     {
@@ -241,7 +502,16 @@
         "image": "/weaponData/Weapons/5.Legendary/137.png",
         "title": "Deloria",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "60",
+        "fire rate" : "0.8",
+        "reload time" : "2",
+        "range" : "500",
+        "accuracy" :"2",
+        "weight" : "1.5"
     },
 
     {
@@ -249,7 +519,16 @@
         "image": "/weaponData/Weapons/5.Legendary/138.png",
         "title": "Ripper",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "50",
+        "fire rate" : "0.2",
+        "reload time" : "1.4",
+        "range" : "300",
+        "accuracy" :"3",
+        "weight" : "1.8"
     },
 
     {
@@ -257,7 +536,16 @@
         "image": "/weaponData/Weapons/5.Legendary/139.png",
         "title": "Anti-Matter",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "90",
+        "fire rate" : "0.8",
+        "reload time" : "2",
+        "range" : "800",
+        "accuracy" :"1",
+        "weight" : "2"
     },
 
     {
@@ -265,7 +553,16 @@
         "image": "/weaponData/Weapons/5.Legendary/140.png",
         "title": "All-Mighty",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Sword",
+        "damage" : "90",
+        "fire rate" : "0.6",
+        "reload time" : "1",
+        "range" : "3",
+        "accuracy" :"2",
+        "weight" : "1.8"
     },
 
     {
@@ -273,7 +570,16 @@
         "image": "/weaponData/Weapons/5.Legendary/141.png",
         "title": "Phantom Blaster",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "50",
+        "fire rate" : "0.09",
+        "reload time" : "1",
+        "range" : "800",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -281,7 +587,16 @@
         "image": "/weaponData/Weapons/5.Legendary/142.png",
         "title": "Hate Executioner",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "40",
+        "fire rate" : "0.06",
+        "reload time" : "1",
+        "range" : "800",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -289,7 +604,16 @@
         "image": "/weaponData/Weapons/5.Legendary/143.png",
         "title": "Turbine",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Machine Gun",
+        "damage" : "50",
+        "fire rate" : "0.08",
+        "reload time" : "1",
+        "range" : "500",
+        "accuracy" :"1",
+        "weight" : "1.5"
     },
 
     {
@@ -297,7 +621,16 @@
         "image": "/weaponData/Weapons/5.Legendary/144.png",
         "title": "Devourer",
         "supply": 100 ,
-        "tier": "Legendary"
+        "tier": "Legendary",
+
+        "type": "",
+        "info" : "Pistol",
+        "damage" : "40",
+        "fire rate" : "0.15",
+        "reload time" : "1",
+        "range" : "300",
+        "accuracy" :"3",
+        "weight" : "1.5"
     }
 
 
