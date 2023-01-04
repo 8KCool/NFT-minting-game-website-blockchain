@@ -696,7 +696,8 @@ character selection and it would be your chance to feel yourself unbeatable.</li
  <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
    <h1 class="font-Kanit text-3xl font-bold text-white">{item.title}</h1>
    <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-       <li>Type:{item.info} </li>
+      <li>Tire:{item.tier} </li>
+      <li>Type:{item.info} </li>
        <li>Damage:{item.damage}</li>
        <li>Fire Rate:{item['fire rate']}</li>
        <li>Reload Time:{item['reload time']}</li>
