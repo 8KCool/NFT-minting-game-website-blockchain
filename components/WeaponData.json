@@ -160,13 +160,13 @@
         "tier": "Rare",
 
         "type": "",
-        "info" : "",
-        "damage" : "",
-        "fire rate" : "",
-        "reload time" : "",
-        "range" : "",
-        "accuracy" :"",
-        "weight" : ""
+        "info" : "Shotgun",
+        "damage" : "60",
+        "fire rate" : "1.25",
+        "reload time" : "6",
+        "range" : "100",
+        "accuracy" :"1",
+        "weight" : "2.2"
     },
 
     {
@@ -177,13 +177,13 @@
         "tier": "Rare",
 
         "type": "",
-        "info" : "",
-        "damage" : "",
-        "fire rate" : "",
-        "reload time" : "",
-        "range" : "",
-        "accuracy" :"",
-        "weight" : ""
+        "info" : "Machine Gun",
+        "damage" : "25",
+        "fire rate" : "0.08",
+        "reload time" : "2",
+        "range" : "700",
+        "accuracy" :"1",
+        "weight" : "1.9"
     },
 
     {
