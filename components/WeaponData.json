@@ -6,7 +6,7 @@
         "supply": 500 ,
         "tier": "Common",
 
-        "type": "",
+        
         "info" : "Knife",
         "damage" : "45",
         "fire rate" : "0.09",
@@ -23,7 +23,7 @@
         "supply": 500 ,
         "tier": "Common",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "30",
         "fire rate" : "0.25",
@@ -40,7 +40,7 @@
         "supply": 500 ,
         "tier": "Common",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "37",
         "fire rate" : "0.25",
@@ -57,7 +57,7 @@
         "supply": 400 ,
         "tier": "Uncommon",
 
-        "type": "",
+        
         "info" : "Launcher",
         "damage" : "20",
         "fire rate" : "1",
@@ -74,7 +74,7 @@
         "supply": 400 ,
         "tier": "Unommon",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "35",
         "fire rate" : "0.25",
@@ -91,7 +91,7 @@
         "supply": 400 ,
         "tier": "Uncommon",
 
-        "type": "",
+        
         "info" : "Brust",
         "damage" : "30",
         "fire rate" : "0.1",
@@ -108,7 +108,7 @@
         "supply": 400 ,
         "tier": "Uncommon",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "35",
         "fire rate" : "0.1",
@@ -125,7 +125,7 @@
         "supply": 400 ,
         "tier": "Uncommon",
 
-        "type": "",
+        
         "info" : "Sword",
         "damage" : "50",
         "fire rate" : "0.7",
@@ -142,7 +142,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Granade",
         "damage" : "30",
         "fire rate" : "2",
@@ -159,7 +159,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Shotgun",
         "damage" : "60",
         "fire rate" : "1.25",
@@ -176,7 +176,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "25",
         "fire rate" : "0.08",
@@ -193,7 +193,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Shotgun",
         "damage" : "70",
         "fire rate" : "1.25",
@@ -210,7 +210,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Sword",
         "damage" : "70",
         "fire rate" : "0.7",
@@ -227,7 +227,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Granade",
         "damage" : "50",
         "fire rate" : "0.7",
@@ -244,7 +244,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Knife",
         "damage" : "50",
         "fire rate" : "0.7",
@@ -261,7 +261,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Sniper",
         "damage" : "80",
         "fire rate" : "1.9",
@@ -278,7 +278,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "40",
         "fire rate" : "0.096",
@@ -296,7 +296,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "45",
         "fire rate" : "0.09",
@@ -314,7 +314,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "40",
         "fire rate" : "0.1",
@@ -332,7 +332,7 @@
         "supply": 300 ,
         "tier": "Rare",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "25",
         "fire rate" : "0.15",
@@ -350,7 +350,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Launcher",
         "damage" : "75",
         "fire rate" : "2",
@@ -368,7 +368,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "50",
         "fire rate" : "0.09",
@@ -385,7 +385,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "25",
         "fire rate" : "0.08",
@@ -402,7 +402,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Sword",
         "damage" : "70",
         "fire rate" : "0.4",
@@ -419,7 +419,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Shotgun",
         "damage" : "75",
         "fire rate" : "1.2",
@@ -436,7 +436,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Granade",
         "damage" : "70",
         "fire rate" : "0.7",
@@ -453,7 +453,7 @@
         "supply": 200 ,
         "tier": "Epic",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "50",
         "fire rate" : "0.25",
@@ -470,7 +470,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "45",
         "fire rate" : "0.085",
@@ -487,7 +487,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Sniper",
         "damage" : "100",
         "fire rate" : "1.7",
@@ -504,7 +504,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "60",
         "fire rate" : "0.8",
@@ -521,7 +521,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "50",
         "fire rate" : "0.2",
@@ -538,7 +538,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "90",
         "fire rate" : "0.8",
@@ -555,7 +555,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Sword",
         "damage" : "90",
         "fire rate" : "0.6",
@@ -572,7 +572,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "50",
         "fire rate" : "0.09",
@@ -589,7 +589,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "40",
         "fire rate" : "0.06",
@@ -606,7 +606,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Machine Gun",
         "damage" : "50",
         "fire rate" : "0.08",
@@ -623,7 +623,7 @@
         "supply": 100 ,
         "tier": "Legendary",
 
-        "type": "",
+        
         "info" : "Pistol",
         "damage" : "40",
         "fire rate" : "0.15",
