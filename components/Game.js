@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
-import Weaplist from './WeaponData.json';
+import Weaplist from './WeapDataForHome.json';
 import "aos/dist/aos.css";
 import { image } from 'd3';
 import { info } from 'autoprefixer';
