@@ -14,7 +14,7 @@ useEffect(() => {
     }, []); 
 
     return(
-    <div id="home"className='overflow-hidden flex flex-col items center'>
+    <div id="home"className='overflow-hidden flex flex-col items-center'>
         <div className="w-full h-screen flex flex-col items-center justify-center relative">
         <img
           src="/webimage2.png"
