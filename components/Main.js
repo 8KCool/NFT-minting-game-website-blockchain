@@ -172,8 +172,8 @@ useEffect(() => {
         
         </div>
 
-        <div className='w-screen h-full flex flex-col md:my-8 md:px-16 px-4'>
-          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM' width='100vw' height='auto'
+        <div>
+          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM'
           controls={true} muted playing /> 
         </div>
 
