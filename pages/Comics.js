@@ -1,7 +1,7 @@
 import Navbar from '../components/NavAbout'
 export default function Comics(){
     return(
-        <div className='overflow-x-hidden'>
+        <div className='overflow-y-hidden'>
             <Navbar/>
             <div  className='flex flex-col items-center md:mx-16 mx-4 overflow-hidden'>
             <h1 className='font-Kanit text-2xl text-[60px] text-blue-400 mt-[100px] mb-4'>Comics</h1>
