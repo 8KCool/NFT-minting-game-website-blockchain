@@ -364,7 +364,7 @@ project ever. The Mutated weapon projects
   <div className='w-full flex flex-col items-center justify-between overflow-hidden my-4'> 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="rmd:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Apollo.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -390,7 +390,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class='md:h-96 md:w-72 w-full h-full'
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Billy.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -412,11 +412,11 @@ project ever. The Mutated weapon projects
         <li>Regeneration speed:3(max)</li>
         <li>Regenerate up to:75</li>
         </ol>
-        
+      
       </div>
     </div>
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Bishop.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -443,7 +443,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Irona.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -469,7 +469,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Omega.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -495,7 +495,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Regen.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -521,7 +521,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Ultron.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -547,7 +547,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Vader.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -575,7 +575,7 @@ project ever. The Mutated weapon projects
     {/*no 19*/}
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Flake.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -603,7 +603,7 @@ project ever. The Mutated weapon projects
     {/*No 10*/}
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Alita.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -631,7 +631,7 @@ project ever. The Mutated weapon projects
     {/*No 11*/}
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class="h-96 w-72">
+      <div class="md:h-96 md:w-72 w-full h-full">
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Dr.M.G..png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -649,7 +649,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
     </div>
     </div>
 
-    {/*No 12*/}
+    {/*No 12*/}md:h-96 md:w-72 w-full h-full
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div class="md:h-96 md:w-72 w-full h-full">
@@ -658,7 +658,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">Angela</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[6px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5.89 </li>
             <li>Run speed:9.16</li>
             <li>Stealth speed1:</li>
