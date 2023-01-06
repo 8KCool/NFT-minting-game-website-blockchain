@@ -689,7 +689,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
 {
  Weaplist.map((item) =>
  <div key={item.id} item={item} class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
- <div class="md:h-[300px] md:w-[400px] h-[200px] w-[350px]">
+ <div class="md:h-[300px] md:w-[400px] h-auto w-full">
    <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={item.image} alt="Weapon" />
  </div>
  <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
