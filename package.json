@@ -28,6 +28,7 @@
     "react-dom": "18.2.0",
     "react-html5video": "^2.5.1",
     "react-icons": "^4.6.0",
+    "react-player": "^2.11.0",
     "react-scroll": "^1.8.8",
     "web3": "^1.8.0"
   },
