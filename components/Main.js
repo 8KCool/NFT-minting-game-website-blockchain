@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {social} from "../info.config";
-import { DefaultPlayer as Video } from 'react-html5video/dist';
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/style.css';
 
 export default function Main() {
 
