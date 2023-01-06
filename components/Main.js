@@ -169,11 +169,11 @@ useEffect(() => {
 
           </div>
         </div>
-        <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM' />
+        
         </div>
 
         <div className='w-full h-full flex flex-col md:my-8 md:px-16 px-4'>
-          
+          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM' />
         </div>
 
   
