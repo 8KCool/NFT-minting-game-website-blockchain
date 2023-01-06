@@ -62,7 +62,7 @@ function Navbar () {
         
         {/* Side Drawer Menu */}
       <div className ={
-        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration-500 border-r-2"
+        nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[65%] h-screen bg-black p-10 ease-in duration-500 border-r-2"
       :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
       }>
       <div className='flex flex-row w-full items-center justify-between'>
@@ -113,8 +113,8 @@ function Navbar () {
             <a className="cursor-pointe"  href='/DexBattleWhitepaper.pdf' download='DexBattleWhitepaper.pdf'>Whitepaper</a>
             </li>
             <li>
-            <div className='mx-2 md:mx-0 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
-            <a href='/mintingPortal'><h1 className='mx-4 uppercase tracking-wide hover:font-semibold'>MINT NOW</h1> </a>
+            <div className='mx-2 my-2 md:mx-0 py-2 px-4 backdrop-blur-md md:flex flex-col items-center font-Kanit text-white rounded-md border border-white hover:bg-blue-200 hover:text-black'>
+            <a href='/mintingPortal'><h1 className='mx-4 uppercase text-center tracking-wide hover:font-semibold'>MINT NOW</h1> </a>
 
           </div>
           </li>
