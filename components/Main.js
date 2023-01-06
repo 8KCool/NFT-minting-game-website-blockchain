@@ -172,9 +172,10 @@ useEffect(() => {
         
         </div>
 
-        <div>
+        <div className='md:my-8 my-4'>
           <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM'
-          controls={true} muted playing /> 
+          controls={true} muted playing
+          width='1080px' height='720' /> 
         </div>
 
   
