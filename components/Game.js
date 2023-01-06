@@ -658,7 +658,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">Angela</h1>
-        <ol class="mb-3 md:text-[15px] text-[6px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5.89 </li>
             <li>Run speed:9.16</li>
             <li>Stealth speed1:</li>
