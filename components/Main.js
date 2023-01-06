@@ -173,7 +173,7 @@ useEffect(() => {
         </div>
 
         <div className='w-screen h-full flex flex-col md:my-8 md:px-16 px-4'>
-          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM' className='w-full h-full' />
+          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM' className='w-full h-full object-cover' />
         </div>
 
   
