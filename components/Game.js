@@ -370,7 +370,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white uppercase">APOLLO</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
         <li>Walk speed:4.5</li>
         <li>Run speed:8</li>
         <li>Stealth speed:1</li>
@@ -396,7 +396,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">BILLY</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
         <li>Walk speed:6.62</li>
         <li>Run speed:11.13</li>
         <li>Stealth speed:1.16</li>
@@ -422,7 +422,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">BISHOP</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5 </li>
             <li>Run speed:7.85</li>
             <li>Stealth speed:1</li>
@@ -449,7 +449,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">IRONA</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:7.1 </li>
             <li>Run speed:9</li>
             <li>Stealth speed:1</li>
@@ -475,7 +475,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">OMEGA</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5.2 </li>
             <li>Run speed:9</li>
             <li>Stealth speed:1</li>
@@ -501,7 +501,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">REGEN</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:4.5 </li>
             <li>Run speed:8</li>
             <li>Stealth speed:1</li>
@@ -527,7 +527,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">ULTRON</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5</li>
             <li>Run speed:8</li>
             <li>Stealth speed:1</li>
@@ -553,7 +553,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">VADER</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:6.77 </li>
             <li>Run speed:8</li>
             <li>Stealth speed:1.21</li>
@@ -581,7 +581,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">Flake</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:5.72 </li>
             <li>Run speed:7.36</li>
             <li>Stealth speed:1</li>
@@ -609,7 +609,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">ALITA</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px]  italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li>Walk speed:6.57 </li>
             <li>Run speed:10.48</li>
             <li>Stealth speed:1.1</li>
@@ -637,7 +637,7 @@ project ever. The Mutated weapon projects
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
       <div class="absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
         <h1 class="font-Kanit text-3xl font-bold text-white">DR. MG</h1>
-        <ol class="mb-3 text-[15px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <ol class="mb-3 md:text-[15px] text-[10px] italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <li className='text-justify'>The Almighty Leader of the Marstens team .
 He has unknown power and he is the leader of The Marstens. 
 People cannot use him for playing the game as a characters now , 
