@@ -20,7 +20,7 @@ useEffect(() => {
           src="/webimage2.png"
           className="w-screen object-cover"
         />
-        <div className='mt-6 left-[40px] absolute fex flex-col'>
+        <div className='mt-6 left-[40px] absolute flex flex-col'>
 
           <div className='flex flex-row items-center text-start'>
             <div className='mr-6  border-b-4 border-brand-yellow'>
@@ -162,7 +162,7 @@ useEffect(() => {
 
             </div>
 
-            <div className='w-[600px] h-[600px] mt-[80px]'>
+            <div className='hidden lg:flex w-[600px] h-[600px] mt-[80px]'>
               <img src='webimage1.png'
               className='object-cover'/>
             </div>

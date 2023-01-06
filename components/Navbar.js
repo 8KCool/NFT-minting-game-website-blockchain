@@ -44,9 +44,9 @@ function Navbar () {
           </div>
           </a>
         </li>
-        <li className='md:hidden'>
+        <li className='lg:hidden'>
         <div onClick={handleNav}
-          className=' md:hidden rounded-md p-2 bg-white mr-2 cursor-pointer' >
+          className='lg:hidden rounded-md p-2 bg-white mr-2 cursor-pointer' >
             <AiOutlineMenu size={18} />
           </div>c
         </li>
