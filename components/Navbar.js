@@ -24,7 +24,7 @@ function Navbar () {
           />
         </li>
         </a>
-          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white rounded-md md:text-[20px] text-sm'>
+          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white rounded-md md:text-[16px] lg:text-[20px] text-sm'>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
@@ -38,7 +38,7 @@ function Navbar () {
 
         <li>
         <a href='/mintingPortal'>
-        <div className='hidden py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
+        <div className='hidden py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
             <h1 className='mx-4 uppercase tracking-wide'>Mint now</h1>
 
           </div>
@@ -57,7 +57,7 @@ function Navbar () {
             {/* Mobile Menu */}
       {/* Overlay */}
       <div className={
-         nav? 'z-[120] md:hidden lg:hidden fixed left-0 top-0 w-full h-screen bg-gray-400/10 backdrop-filter backdrop-blur-sm' : ""
+         nav? 'z-[120] lg:hidden fixed left-0 top-0 w-full h-screen bg-gray-400/10 backdrop-filter backdrop-blur-sm' : ""
         }>
         
         {/* Side Drawer Menu */}
