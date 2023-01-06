@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {social} from "../info.config";
-// import video1 from '../assests/Main.mp4';
+import mainvideo from '../assests/Main.mp4';
 
 export default function Main() {
 
@@ -173,7 +173,7 @@ useEffect(() => {
         </div>
 
         <div className='w-full h-full flex flex-col md:my-8 md:px-16 px-4'>
-          <video src={require('../assests/Main.mp4')} autoplay muted loop controls />
+          <video src={mainvideo} autoplay muted loop controls />
         </div>
 
   
