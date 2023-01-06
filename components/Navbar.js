@@ -78,7 +78,7 @@ function Navbar () {
                 </a>
               </div>
               <div onClick={handleNav}
-              className='fixed md:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
+              className='fixed lg:right-[-100%] rounded-full bg-gray-400 hover:shadow-lg hover:shadow-gray-600 p-3 cursor-pointer '>
               <AiOutlineClose size={18} />
              </div>
           </div>
