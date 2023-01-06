@@ -1,4 +1,6 @@
 const config = {
+
+  // mint with bnb contract
   LeaderSupply:25 ,
   LegendarySupply:150,
   EpicSupply:250, // change values here
@@ -6,12 +8,12 @@ const config = {
   UncommonSupply:400,
   CommonSupply:500,
 
-  leader_items_cost: 3,
+  leader_items_cost: 5,
   legendary_items_cost: 1,
-  epic_items_cost: 0.5,
-  rare_items_cost: 0.1,
-  uncommon_items_cost: 0.05,
-  common_items_cost: 0.01 
+  epic_items_cost: 0.7,
+  rare_items_cost: 0.4,
+  uncommon_items_cost: 0.2,
+  common_items_cost: 0.1 
 }
 
 const social ={
@@ -29,6 +31,7 @@ const social ={
 
 const dex ={
 
+  //mint with dex coin contract
   LeaderSupply:25 ,
   LegendarySupply:150,
   EpicSupply:250, // change values here
