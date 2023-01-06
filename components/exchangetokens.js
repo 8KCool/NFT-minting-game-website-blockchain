@@ -88,9 +88,8 @@ useEffect(() => {
 
   const doBuyHandler = async () => {
 
-   
     setIsMinting(true)
-    const payableAmount = Math.floor(payAmount * 10**18)/ 10**18 //round function error
+    const payableAmount = Math.round(payAmount*10**18 )/10**18    
     const {success, status}= await doBuy(payableAmount)
     setStatus({
       success,
@@ -156,7 +155,7 @@ return(
           </a>
         </li>
  
-          <div className='bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
+          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
           <a className="mx-4 cursor-pointer hover:text-blue-400" href='/'> <h1> Home</h1></a>
             <a className="mx-4 cursor-pointer hover:text-blue-400" href='/mintingPortal'> <h1> Mint NFTs</h1></a>
           </div>
@@ -175,18 +174,24 @@ return(
           
           
         </li>
+        <li>
+        <div onClick={handleNav}
+          className=' md:hidden rounded-md p-2 bg-white mr-2 cursor-pointer' >
+            <AiOutlineMenu size={18} />
+          </div>
+        </li>
 
       </ul>
       
       </div>
 
       {/*Title*/}
-        <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 text-center mx-2">
+        <h1 className="tracking-wide font-Righteous uppercase font-bold text-3xl md:text-4xl text-brand-02 bg-clip-text mt-4 pt-3 ">
             Instant Dex coin Exchange</h1>
-            <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2 text-center mx-2">
+            <h1 className="tracking-wide font-Righteous uppercase font-bold text-2xl md:text-3xl text-brand-02 bg-clip-text my-2">
             Swap $Dex with BNB</h1>
 
-        <div className=' flex md:flex-row flex-col items-center justify-between border'>
+        <div className=' flex flex-row items-center justify-between border'>
           {/* <img src='/bg2.jpg'
           className='absolute inset-auto block object-cover'/> */}
 

@@ -2,12 +2,12 @@ const RPC_URL = process.env.NEXT_PUBLIC_URL
 /* global BigInt*/
 
 const config = {
-  title: 'dex test dapp',
-  description: 'test minting Dapp',
+  title: 'dexbattle official minting website',
+  description: 'dexbattle minting website',
   tokenContract: '0xD946e2db35bA6e2aC40F4D68a270a08c05BAe539',
   nftContract: '0x3C7DA571076b3d72489569ac2A286E5D066b4866',
   exchangeContract: '0x8ff92F5289414dA81eF95f165ac46d8f0Dd50a01',
-  nftwithDexContract: '0x76A28d82B62Aa454A3f366C5F08ce43355849897' 
+  nftwithDexContract: '0x76A28d82B62Aa454A3f366C5F08ce43355849897'
 }
 
 const onboardOptions = {
@@ -23,7 +23,7 @@ const onboardOptions = {
         walletName: 'walletLink',
         preferred: true,
         rpcUrl: RPC_URL,
-        appName: 'dexTest01 Dapp'
+        appName: 'dex Dapp'
       },
       
       { walletName: 'trust', preferred: true, rpcUrl: RPC_URL },

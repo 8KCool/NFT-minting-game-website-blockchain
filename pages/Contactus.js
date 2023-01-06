@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Navbar from "../components/NavAbout";
 import { useForm, ValidationError } from "@formspree/react";
 import {social} from '../info.config'
-import Head from 'next/head';
 
 export default function Contact () {
 
@@ -21,12 +20,6 @@ export default function Contact () {
 return (
 
 <div>
-
-<Head>
-        <title>DexBattle-Contact Us</title>
-        <meta name="Description" content="Dex Battle Game!" />
-        <link rel="icon" href="/Dex.png" />
-      </Head>
 
   <Navbar/>
 <section class="relative z-10 overflow-hidden py-20 lg:py-[100px] mx-16">
