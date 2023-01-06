@@ -390,7 +390,7 @@ project ever. The Mutated weapon projects
     </div>
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-      <div class='md:h-96 md:w-72 w-full h-full'
+      <div class='md:h-96 md:w-72 w-full h-full'>
         <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="/characters/Billy.png" alt="" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
