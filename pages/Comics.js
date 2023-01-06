@@ -9,7 +9,7 @@ export default function Comics(){
             <div className='flex flex-col items-center justify-center'>
                     <h1 className='font-Kanit lg:text-[48px] text-[36px] text-center py-2 px-4 text-white font-medium tracking-wider border boder-white rounded-md'>Comming Soon!</h1>
             </div>   
-            <img src='comicCover.png' className='md:w-[800px] md:h-[800px] lg:w-[800px] lg:h-[800px] w-[400px] h-[400px] mt-8 filter blur-sm rounded-md border border-gray-300 absolute'/>
+            <img src='comicCover.png' className='md:w-[800px] md:h-[800px] lg:w-[800px] lg:h-[800px] w-[400px] h-[400px] mt-8 filter blur-sm rounded-md border border-gray-300'/>
           
             </div>
         </div>
