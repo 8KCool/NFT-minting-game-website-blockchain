@@ -24,7 +24,7 @@ function Navbar () {
           />
         </li>
         </a>
-          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md md:text-[20px] text-sm'>
+          <div className='hidden sm:hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md md:text-[20px] text-sm'>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
@@ -48,7 +48,7 @@ function Navbar () {
         <div onClick={handleNav}
           className=' md:hidden rounded-md p-2 bg-white mr-2 cursor-pointer' >
             <AiOutlineMenu size={18} />
-          </div>
+          </div>c
         </li>
 
       </ul>
