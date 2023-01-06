@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {social} from "../info.config";
-import mainvideo from '../assests/Main.mp4';
 import { DefaultPlayer as Video } from 'react-html5video/dist';
 
 export default function Main() {
@@ -175,7 +174,7 @@ useEffect(() => {
 
         <div className='w-full h-full flex flex-col md:my-8 md:px-16 px-4'>
           <Video autoplay loop muted controls>
-            <source src={mainvideo} type='video/webm'/>
+            <source src='../assests/Main.mp4' type='video/webm'/>
           </Video>
         </div>
 
