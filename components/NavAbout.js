@@ -24,7 +24,7 @@ function Navbar () {
           />
         </li>
         </a>
-          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md text-[20px]'>
+          <div className='hidden bg-gray-700/30 py-2 px-4 backdrop-blur-md md:flex flex-row font-Kanit text-white rounded-md lg:text-[20px] md:text-[16px] text-sm'>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/'><h1 className='mx-4'>Home</h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Aboutus' ><h1 className='mx-4'>About Us </h1></a>
             <a className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" href='/Contactus' ><h1 className='mx-4'>Contact Us </h1></a>

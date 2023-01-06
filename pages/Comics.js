@@ -8,7 +8,7 @@ export default function Comics(){
 
             <div className='w-full h-auto md:my-6 my-2 flex flex-col items-center justify-start'>
                 <img src='/comicCover.png' className='w-full h-full filter blur-sm object-cover absolute'/>
-                <h1 className='text-white font-Kanit text-4xl text-center relative'></h1>
+                <h1 className='text-white font-Kanit text-4xl text-center relative'> Coming Soon!</h1>
             </div>
             </div>
         </div>
