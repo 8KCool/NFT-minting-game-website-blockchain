@@ -24,7 +24,7 @@ function Navbar () {
           />
         </li>
         </a>
-          <div className='hidden bg-gray-700/30 py-2 lg:px-4 px-2 backdrop-blur-md lg:flex flex-row font-Kanit text-white rounded-md md:text-[14px] lg:text-[18px] xl:text-auto sm:text-sm'>
+          <div className='hidden bg-gray-700/30 py-2 lg:px-4 px-2 backdrop-blur-md lg:flex flex-row font-Kanit text-white rounded-md md:text-[14px] lg:text-[18px] sm:text-sm'>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='home' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Home</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='nfts' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'> NFTs</h1></Link>
             <Link className="cursor-pointer bg-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent" acticeClass ="active" to='dexcoin' spy={true} smooth={true} offset={-70} duration={500}><h1 className='mx-4'>Dex Coin</h1></Link>
