@@ -33,6 +33,7 @@ useEffect(() => {
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Get it on </p>
                         <p class="text-sm md:text-base text-gray-200"> Google Play Store </p>
+                        <p class='text-[10px] text-white'>{'(soon!)'}</p>
                     </div>
                 </div></a>
                 <a href={social.appleAppStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
@@ -40,6 +41,7 @@ useEffect(() => {
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download on </p>
                         <p class="text-sm md:text-base text-gray-200"> Apple App Store </p>
+                        <p class='text-[10px] text-white'>{'(soon!)'}</p>
                     </div>
                 </div></a>
                 <a href='/game.exe' download='game.exe'><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
@@ -47,6 +49,7 @@ useEffect(() => {
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download for  </p>
                         <p class="text-sm md:text-base text-gray-200"> Windows </p>
+                        <p class='text-[10px] text-white'>{'(soon!)'}</p>
                     </div>
                 </div></a>
             </div>
