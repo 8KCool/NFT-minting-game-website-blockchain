@@ -39,12 +39,12 @@ const dex ={
   UncommonSupply:400,
   CommonSupply:500,
 
-  leader_items_cost: 3000,
-  legendary_items_cost: 200, //replace cost here
-  epic_items_cost: 150,
-  rare_items_cost: 100,
-  uncommon_items_cost: 75,
-  common_items_cost: 50 
+  leader_items_cost: 5000,
+  legendary_items_cost: 3500, //replace cost here
+  epic_items_cost: 2800,
+  rare_items_cost: 2300,
+  uncommon_items_cost: 1800,
+  common_items_cost: 1250 
 }
   export {config , social, dex}
 
