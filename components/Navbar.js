@@ -16,7 +16,7 @@ function Navbar () {
   return (
     <div>
     <div className='fixed z-[100] w-full h-auto bg-black/30 backdrop-blur-sm overflow-x-hidden border-b-white'>
-      <ul className='flex flex-row items-center justify-between my-4 mx-10'>
+      <ul className='flex flex-row items-center justify-between my-4 lg:mx-10 xl:mx-10 mx-6'>
         <a href='/'>
           <li>
           <img className = 'w-auto h-[55px]' 
@@ -40,7 +40,7 @@ function Navbar () {
         <li>
         <a href='/mintingPortal'>
         <div className='hidden py-2 px-4 backdrop-blur-md lg:flex flex-row font-Kanit text-white font-semibold border border-white hover:bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 hover:text-black  hover:font-semibold'>
-            <h1 className='mx-4 uppercase tracking-wide'>Mint now</h1>
+            <h1 className='lg:mx-4 xl:mx-4 mx-2 uppercase lg:tracking-wide'>Mint now</h1>
 
           </div>
           </a>
@@ -64,7 +64,7 @@ function Navbar () {
         {/* Side Drawer Menu */}
       <div className ={
         nav? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[65%] h-screen bg-black p-10 ease-in duration-500 border-r-2"
-      :'fixed left-[-100%] top-0 p-10 ease-in duration-500 h-screen'
+      :'fixed left-[-100%] top-0 p-10 ease-in duration-500 min-h-screen'
       }>
       <div className='flex flex-row w-full items-center justify-between'>
       <div>
