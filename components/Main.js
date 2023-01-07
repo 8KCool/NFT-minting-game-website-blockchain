@@ -26,7 +26,7 @@ useEffect(() => {
             <div className='mr-6  border-b-4 border-brand-yellow'>
                 <h1 className='font-Kanit md:text-[60px] lg:text-[60px] text-[30px] text-white font-semibold uppercase'> Make your own story <br/>
                 <span className='md:text-[75px] text-[35px] text-white'>IN <span className='bg-gradient-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-transparent'>DEXBATTLE</span></span></h1>
-                <h1 className='text-[25px] mt-8 font-kanit border-2 border-red-700 rounded-md px-4 py-2 font-medium text-white'>📢 We launch DexBattale {'(Beta)'} on 25<sup>th</sup> Januray 2023</h1>
+                <h1 className='text-[25px] mt-8 font-kanit border-2 border-red-700 rounded-md px-4 py-2 font-medium text-white'>📢 We launch DexBattle {'(Beta)'} on 25<sup>th</sup> Januray 2023</h1>
                 <div class="md:flex justify-start mt-10 mb-[60px]">
             <a href={social.googlePlayStore}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8"/>
