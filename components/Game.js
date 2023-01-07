@@ -649,7 +649,7 @@ character selection and it would be your chance to feel yourself unbeatable.</li
     </div>
     </div>
 
-    {/*No 12*/}md:h-96 md:w-72 w-full h-full
+    {/*No 12*/}
 
     <div class="my-4 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div class="md:h-96 md:w-72 w-full h-full">
