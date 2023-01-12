@@ -19,7 +19,7 @@ const config = {
 const social ={
   googlePlayStore:'https://play.google.com/store/', // will update after game launch to play store and app store
   appleAppStore:'https://www.apple.com/app-store/',
-  downloadForWindows :'/',
+  windows :'https://www.mediafire.com',
   twitter:'https://twitter.com/DexBattleCrypto', 
   discord:'https://discord.gg/9ZMPeDgD7a',
   telegram:'https://t.me/+I9YpjZPWNbFmYTA0',
