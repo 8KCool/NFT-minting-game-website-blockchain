@@ -176,7 +176,7 @@ useEffect(() => {
         </div>
 
         <div className='md:my-8 my-4'>
-          <ReactPlayer url='https://www.youtube.com/watch?v=dN4bHArmPPM'
+          <ReactPlayer url='https://youtu.be/ZD44BUZC1nI'
           controls={true} muted playing
           width='1080px' height='720px' /> 
         </div>
