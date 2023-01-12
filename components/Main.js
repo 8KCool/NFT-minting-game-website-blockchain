@@ -44,7 +44,7 @@ useEffect(() => {
                         <p class='text-[10px] text-white'>{'(soon!)'}</p>
                     </div>
                 </div></a>
-                <a href='/game.exe' download='game.exe'><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
+                <a href={social.windows}><div class="flex items-center border rounded-lg px-4 py-2 w-52 mx-2 my-2">
                     <img src="/icons/windows.png" class="w-7 md:w-8"/> 
                     <div class="text-left ml-3">
                         <p class='text-xs text-gray-200'>Download for  </p>
